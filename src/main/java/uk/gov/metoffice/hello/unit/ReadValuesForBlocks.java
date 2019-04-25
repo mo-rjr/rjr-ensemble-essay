@@ -1,15 +1,14 @@
 package uk.gov.metoffice.hello.unit;
 
+import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Function;
 
 /**
  * {A thing} to {do something} for {another thing}
@@ -17,27 +16,62 @@ import java.util.Map;
  * -- and also {this}
  */
 // TODO fill in Javadoc
-public class ReadValuesForBlocks {
+public class ReadValuesForBlocks<T extends Number> {
 
-    public Map<Integer, Float> fromBlocksFromFile(String fileName, List<Integer> areaBlocks) {
+    private final InputStreamProvider inputStreamProvider;
 
-        try {
-            Path path = Paths.get(fileName);
-            byte[] byteArray = Files.readAllBytes(path);
-            System.out.println(byteArray.length);
-            ByteBuffer byteBuffer = ByteBuffer.wrap(byteArray);
-            byteBuffer.order(ByteOrder.LITTLE_ENDIAN);
-            float value;
+    private final Function<ByteBuffer, T> valueReader;
+
+    private final int numberOfBytesPerValue;
+
+    private final int rowLength;
+
+    public ReadValuesForBlocks(InputStreamProvider inputStreamProvider,
+                               Function<ByteBuffer, T> valueReader,
+                               int numberOfBytesPerValue,
+                               int rowLength) {
+        this.inputStreamProvider = inputStreamProvider;
+        this.valueReader = valueReader;
+        this.numberOfBytesPerValue = numberOfBytesPerValue;
+        this.rowLength = rowLength;
+    }
+
+    public Map<Integer, T> blockValuesFromFile(String fileReference, List<Integer> blocks) {
+        try (BufferedInputStream inputStream = new BufferedInputStream(inputStreamProvider
+                .open(fileReference))) {
+
+            byte[] oneRow = new byte[rowLength * numberOfBytesPerValue];
+
+            ByteBuffer byteBuffer = null;
+
             int position = 0;
-            Map<Integer, Float> valuesForBlocks = new HashMap<>();
-            while (byteBuffer.hasRemaining() && valuesForBlocks.size() < areaBlocks.size()) {
-                value = byteBuffer.getFloat();
-                if (areaBlocks.contains(position)) {
-                    valuesForBlocks.put(position, value);
+
+            int bytesRead = inputStream.read(oneRow);
+            if (bytesRead < 0) {
+                throw new RuntimeException("Couldn't read any bytes from file " + fileReference);
+            }
+
+            byteBuffer = ByteBuffer.wrap(oneRow).asReadOnlyBuffer();
+            byteBuffer.order(ByteOrder.LITTLE_ENDIAN);
+            T value = null;
+
+            Map<Integer, T> valuesForBlocks = new HashMap<>();
+
+            while (bytesRead > 0 && valuesForBlocks.size() < blocks.size()) {
+                while (byteBuffer.hasRemaining() && valuesForBlocks.size() < blocks.size()) {
+                    value = valueReader.apply(byteBuffer);
+                    if (blocks.contains(position)) {
+                        valuesForBlocks.put(position, value);
+                    }
+                    position++;
                 }
-                position++;
+
+                bytesRead = inputStream.read(oneRow);
+                byteBuffer.rewind();
             }
             return valuesForBlocks;
+
+
         } catch (IOException e) {
             throw new UncheckedIOException(e);
         }

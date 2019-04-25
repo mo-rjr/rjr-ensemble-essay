@@ -17,10 +17,10 @@ import java.util.stream.Collectors;
 // TODO fill in Javadoc
 public class Accumulator {
 
-    private final ReadValuesForBlocks readValuesForBlocks;
+    private final ReadValuesForBlocks<Float> readFloatValuesForBlocks;
 
-    public Accumulator(ReadValuesForBlocks readValuesForBlocks) {
-        this.readValuesForBlocks = readValuesForBlocks;
+    public Accumulator(ReadValuesForBlocks<Float> readFloatValuesForBlocks) {
+        this.readFloatValuesForBlocks = readFloatValuesForBlocks;
     }
 
 
@@ -31,7 +31,7 @@ public class Accumulator {
 
         Map<ZonedDateTime, Map<Integer, Float>> rawValues = filesForTimeSteps.entrySet().stream()
                 .collect(Collectors.toMap(Map.Entry::getKey,
-                        e -> readValuesForBlocks.fromBlocksFromFile(e.getValue(), blocks)));
+                        e -> readFloatValuesForBlocks.blockValuesFromFile(e.getValue(), blocks)));
 
 
         List<ZonedDateTime> timeSteps = new ArrayList<>(rawValues.keySet());
