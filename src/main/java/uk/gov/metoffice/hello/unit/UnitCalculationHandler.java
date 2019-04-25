@@ -24,14 +24,18 @@ public class UnitCalculationHandler {
 
     public Optional<UnitOutput> handleCalculation(OneDurationOneEnsembleOneArea spec) {
         AdminArea adminArea = spec.getAdminArea();
-        StormDuration stormDuration = spec.getDuration();
+        StormDuration stormDuration = spec.getStormDuration();
         Ensemble ensemble = spec.getEnsemble();
 
         // create the accumulated data for this storm length for this area
         Map<ZonedDateTime, Map<Integer, Float>> timestepsToBlockValues = accumulator.accumulateValues(spec);
 
 
-        Map<ZonedDateTime, Map<Integer, Boolean>> timestepsToBlocksExceedThreshold = thresholder.threshold(timestepsToBlockValues);
+        Map<ZonedDateTime, Map<Integer, Boolean>> timestepsToBlocksExceedThreshold = thresholder.threshold(spec.getStormDuration(),
+                StormSeverity.THIRTY_YEARS,
+                spec.getAdminArea().getBlocks(),
+                timestepsToBlockValues);
+
 
 
         return Optional.empty();

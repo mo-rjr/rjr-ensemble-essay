@@ -11,16 +11,16 @@ import java.util.List;
 // TODO fill in Javadoc
 public class AdminArea {
 
-    private int areaId;
+    private int id;
 
     private String name;
 
     private int threshold;
 
-    private List<Integer> squares = new ArrayList<>();
+    private List<Integer> blocks = new ArrayList<>();
 
-    public int getAreaId() {
-        return areaId;
+    public int getId() {
+        return id;
     }
 
     public String getName() {
@@ -31,7 +31,7 @@ public class AdminArea {
         return threshold;
     }
 
-    public List<Integer> getSquares() {
-        return squares;
+    public List<Integer> getBlocks() {
+        return blocks;
     }
 }

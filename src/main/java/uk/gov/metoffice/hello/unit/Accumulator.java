@@ -3,10 +3,7 @@ package uk.gov.metoffice.hello.unit;
 import uk.gov.metoffice.hello.message.OneDurationOneEnsembleOneArea;
 
 import java.time.ZonedDateTime;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -25,8 +22,8 @@ public class Accumulator {
 
 
     public Map<ZonedDateTime, Map<Integer, Float>> accumulateValues(OneDurationOneEnsembleOneArea spec) {
-        List<Integer> blocks = spec.getAdminArea().getSquares();
-        Map<ZonedDateTime, String> filesForTimeSteps = spec.getEnsemble().getRunoffFileForTimestep();
+        List<Integer> blocks = spec.getAdminArea().getBlocks();
+        Map<ZonedDateTime, String> filesForTimeSteps = spec.getEnsemble().getRunoffFilePerTimestep();
 
 
         Map<ZonedDateTime, Map<Integer, Float>> rawValues = filesForTimeSteps.entrySet().stream()
@@ -35,26 +32,35 @@ public class Accumulator {
 
 
         List<ZonedDateTime> timeSteps = new ArrayList<>(rawValues.keySet());
-        int timespan = spec.getDuration().getTimeSteps();
+        Collections.sort(timeSteps);
 
-        Map<Integer, Map<Integer, Float>> blockToTimeIndexToSummedValue = new HashMap<>();
+        int timespan = spec.getStormDuration().getTimeSteps();
+
+//        Map<Integer, Map<Integer, Float>> blockToTimeIndexToSummedValue = new HashMap<>();
+        Map<Integer, Map<Integer, Float>> timeIndexToBlockToSummedValue = new HashMap<>();
 
 
         for (Integer block : blocks) {
             for (int index = 0; index < timeSteps.size(); index++) {
                 float rawValue = rawValues.get(timeSteps.get(index)).get(block);
                 for (int spanSteps = 0; spanSteps < timespan; spanSteps++) {
-                    int position = index + spanSteps;
-                    Map<Integer, Float> blockMap = blockToTimeIndexToSummedValue.computeIfAbsent(block, x -> new HashMap<>());
-                    float valueSoFar = blockMap.getOrDefault(position, 0.0f);
-                    blockMap.put(position, valueSoFar + rawValue);
+                    int affectedTimeIndex = index + spanSteps;
+
+                    Map<Integer, Float> blockToRunningSumMap = timeIndexToBlockToSummedValue.computeIfAbsent(affectedTimeIndex,
+                            x -> new HashMap<>());
+
+                    float valueSoFar = blockToRunningSumMap.getOrDefault(block, 0.0f);
+                    blockToRunningSumMap.put(block, valueSoFar + rawValue);
+//                    Map<Integer, Float> blockMap = blockToTimeIndexToSummedValue.computeIfAbsent(block, x -> new HashMap<>());
+//                    float valueSoFar = blockMap.getOrDefault(position, 0.0f);
+//                    blockMap.put(position, valueSoFar + rawValue);
                 }
             }
         }
 
         Map<ZonedDateTime, Map<Integer, Float>> accumulatedTimeSteps = new HashMap<>();
         for (int step = timespan - 1; step < timeSteps.size(); step++) {
-            accumulatedTimeSteps.put(timeSteps.get(step), blockToTimeIndexToSummedValue.get(step));
+            accumulatedTimeSteps.put(timeSteps.get(step), timeIndexToBlockToSummedValue.get(step));
         }
         return accumulatedTimeSteps;
 

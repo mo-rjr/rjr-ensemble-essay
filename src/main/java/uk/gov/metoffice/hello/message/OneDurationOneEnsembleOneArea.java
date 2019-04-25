@@ -10,11 +10,24 @@ public class OneDurationOneEnsembleOneArea {
 
     private String sourceZipName;
 
-    private StormDuration duration;
+    private StormDuration stormDuration;
 
     private Ensemble ensemble;
 
     private AdminArea adminArea;
+
+    public OneDurationOneEnsembleOneArea() {
+    }
+
+    public OneDurationOneEnsembleOneArea(String sourceZipName,
+                                         StormDuration stormDuration,
+                                         Ensemble ensemble,
+                                         AdminArea adminArea) {
+        this.sourceZipName = sourceZipName;
+        this.stormDuration = stormDuration;
+        this.ensemble = ensemble;
+        this.adminArea = adminArea;
+    }
 
     public String getSourceZipName() {
         return sourceZipName;
@@ -24,12 +37,12 @@ public class OneDurationOneEnsembleOneArea {
         this.sourceZipName = sourceZipName;
     }
 
-    public StormDuration getDuration() {
-        return duration;
+    public StormDuration getStormDuration() {
+        return stormDuration;
     }
 
-    public void setDuration(StormDuration duration) {
-        this.duration = duration;
+    public void setStormDuration(StormDuration stormDuration) {
+        this.stormDuration = stormDuration;
     }
 
     public Ensemble getEnsemble() {

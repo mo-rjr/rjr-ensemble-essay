@@ -1,6 +1,7 @@
 package uk.gov.metoffice.hello.unit;
 
 import java.io.BufferedInputStream;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.nio.ByteBuffer;
@@ -18,7 +19,8 @@ import java.util.function.Function;
 // TODO fill in Javadoc
 public class ReadValuesForBlocks<T extends Number> {
 
-    private final InputStreamProvider inputStreamProvider;
+    // TODO
+//    private final InputStreamProvider inputStreamProvider;
 
     private final Function<ByteBuffer, T> valueReader;
 
@@ -26,19 +28,17 @@ public class ReadValuesForBlocks<T extends Number> {
 
     private final int rowLength;
 
-    public ReadValuesForBlocks(InputStreamProvider inputStreamProvider,
-                               Function<ByteBuffer, T> valueReader,
+    public ReadValuesForBlocks(Function<ByteBuffer, T> valueReader,
                                int numberOfBytesPerValue,
                                int rowLength) {
-        this.inputStreamProvider = inputStreamProvider;
         this.valueReader = valueReader;
         this.numberOfBytesPerValue = numberOfBytesPerValue;
         this.rowLength = rowLength;
     }
 
     public Map<Integer, T> blockValuesFromFile(String fileReference, List<Integer> blocks) {
-        try (BufferedInputStream inputStream = new BufferedInputStream(inputStreamProvider
-                .open(fileReference))) {
+        try (BufferedInputStream inputStream = new BufferedInputStream(
+                new FileInputStream(fileReference))) {
 
             byte[] oneRow = new byte[rowLength * numberOfBytesPerValue];
 

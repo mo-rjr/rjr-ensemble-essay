@@ -16,9 +16,19 @@ public class Ensemble {
 
     private int ensembleId;
 
-    private Map<ZonedDateTime, String> runoffFileForTimestep = new HashMap<>();
+    private Map<ZonedDateTime, String> runoffFilePerTimestep = new HashMap<>();
 
     private String rainfallFile;
+
+    public Ensemble() {
+    }
+
+    public Ensemble(String sourceZipName, int ensembleId, Map<ZonedDateTime, String> runoffFilePerTimestep, String rainfallFile) {
+        this.sourceZipName = sourceZipName;
+        this.ensembleId = ensembleId;
+        this.runoffFilePerTimestep = runoffFilePerTimestep;
+        this.rainfallFile = rainfallFile;
+    }
 
     public String getSourceZipName() {
         return sourceZipName;
@@ -36,12 +46,12 @@ public class Ensemble {
         this.ensembleId = ensembleId;
     }
 
-    public Map<ZonedDateTime, String> getRunoffFileForTimestep() {
-        return runoffFileForTimestep;
+    public Map<ZonedDateTime, String> getRunoffFilePerTimestep() {
+        return runoffFilePerTimestep;
     }
 
-    public void setRunoffFileForTimestep(Map<ZonedDateTime, String> runoffFileForTimestep) {
-        this.runoffFileForTimestep = runoffFileForTimestep;
+    public void setRunoffFilePerTimestep(Map<ZonedDateTime, String> runoffFilePerTimestep) {
+        this.runoffFilePerTimestep = runoffFilePerTimestep;
     }
 
     public String getRainfallFile() {
