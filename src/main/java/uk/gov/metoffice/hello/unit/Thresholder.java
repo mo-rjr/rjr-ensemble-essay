@@ -60,8 +60,6 @@ public class Thresholder {
 
         return checkForThresholdsCrossed(thresholdValues, timestepsToBlockValues);
 
-//        return timestepsToBlockValues.entrySet().stream()
-//                .collect(Collectors.toMap(Map.Entry::getKey, e -> applyThresholds(thresholdValues, e.getValue())));
     }
 
     private Map<ZonedDateTime, Map<Integer, Boolean>> checkForThresholdsCrossed(Map<Integer, Float> thresholdValues,
@@ -84,11 +82,6 @@ public class Thresholder {
         }
         return thresholdsApplied;
 
-
-//
-//        return actualValues.entrySet().stream()
-//                .collect(Collectors.toMap(Map.Entry::getKey,
-//                        e -> bothValuesExistAndActualIsGreater(thresholds.getOrDefault(e.getKey(), -99.0f), e.getValue())));
     }
 
     private boolean bothValuesExistAndActualIsGreater(Float thresholdValue, Float actualValue) {
