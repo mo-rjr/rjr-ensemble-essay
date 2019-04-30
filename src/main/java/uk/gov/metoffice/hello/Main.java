@@ -21,6 +21,10 @@ import java.util.Map;
 // TODO fill in Javadoc
 public class Main {
 
+    // global variable? or reader-level variable?
+    public static final int ROW_LENGTH = 540;
+    // and valid blocks should maybe be at quite a high level too
+
     private static final String ADMIN_AREA_FILE = "C:\\Workarea\\rjr-ensemble-essay\\src\\main\\resources\\adminAreas.json";
     private static final String ZIP_FILE_NAME = "MO_G2G_NWP_NCENS_ENGWAL_201805271830_SWF_HIM";
     private static final String DATA_ROOT = "C:\\Workarea\\swf-him-jm\\TestData\\BirminghamFloods20180527\\" + ZIP_FILE_NAME + "\\";

@@ -8,10 +8,16 @@ package uk.gov.metoffice.hello.message;
 // TODO fill in Javadoc
 public enum StormSeverity {
 
-    THIRTY_YEARS,
-    ONE_HUNDRED_YEARS,
-    ONE_THOUSAND_YEARS;
+    THIRTY_YEARS(30),
+    ONE_HUNDRED_YEARS(100),
+    ONE_THOUSAND_YEARS(1000);
 
+    int years;
 
+    StormSeverity(int years) {
+        this.years = years;
+    }
 
-}
+    public int getYears() {
+        return years;
+    }}

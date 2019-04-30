@@ -2,6 +2,7 @@ package uk.gov.metoffice.hello.experiment;
 
 import uk.gov.metoffice.hello.message.Ensemble;
 import uk.gov.metoffice.hello.message.StormDuration;
+import uk.gov.metoffice.hello.message.StormSeverity;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -10,17 +11,24 @@ import java.time.ZonedDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
 
+import static uk.gov.metoffice.hello.Main.ROW_LENGTH;
+
 /**
  * {A thing} to {do something} for {another thing}
  * -- for example, {this}
  * -- and also {this}
  */
 // TODO fill in Javadoc
-public class NicerAccumulationsStillEfficient {
+public class EnsembleThresholder {
 
-    private static final int ROW_LENGTH = 540;
+    private final AccumulationThresholdProvider accumulationThresholdProvider;
 
-    public Map<ZonedDateTime, Map<Integer, Float>> makeAccumulations(Ensemble ensemble,
+    public EnsembleThresholder(AccumulationThresholdProvider accumulationThresholdProvider) {
+        this.accumulationThresholdProvider = accumulationThresholdProvider;
+    }
+
+
+    public Map<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> calculateExceededBlocks(Ensemble ensemble,
                                                                      StormDuration stormDuration,
                                                                      List<Integer> sortedValidBlocks) {
         Map<ZonedDateTime, String> filesForTimeSteps = ensemble.getRunoffFilePerTimestep();
@@ -33,16 +41,19 @@ public class NicerAccumulationsStillEfficient {
         Map<ZonedDateTime, Map<Integer, Float>> accumulationsMap = sortedTimeSteps.stream()
                 .collect(Collectors.toMap(zdt -> zdt, zdt -> new HashMap<>()));
         final int accumulationSteps = stormDuration.getTimeSteps();
+        Map<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> crossedThresholdsPerTimestep = sortedTimeSteps.stream()
+                .collect(Collectors.toMap(zdt -> zdt, x -> new EnumMap<>(StormSeverity.class)));
 
         // cycle through all the timesteps i.e. all the BIL files
         for (int currentTimeIndex = 0; currentTimeIndex < sortedTimeSteps.size(); currentTimeIndex++) {
             ZonedDateTime currentZonedDateTime = sortedTimeSteps.get(currentTimeIndex);
             String fileName = filesForTimeSteps.get(currentZonedDateTime);
-            System.out.println("File " + fileName + " for " + currentZonedDateTime);
+            System.out.println("File " + currentTimeIndex + ": " + currentZonedDateTime + " at fileName " + currentZonedDateTime);
 
             try (AdvancingBilFileReader<Float> advancingBilFileReader =
                          new AdvancingBilFileReader<>(ByteBuffer::getFloat, fileName,
                                  ROW_LENGTH, Float.BYTES)) {
+
                 // cycle through the required blocks
                 for (Integer block : sortedValidBlocks) {
 
@@ -70,17 +81,22 @@ public class NicerAccumulationsStillEfficient {
                 // TODO handle exception properly
             }
 
-        // now you could do something to thie timesteps's accumulated data, and then null it out
-        // only do the thing for the full timesteps, but null them all
+            // now you could do something to thie timesteps's accumulated data, and then null it out
+            // only do the thing for the full timesteps, but null them all
+            if (currentTimeIndex >= accumulationSteps - 1) {
+                Map<Integer, Float> accumulatedData = accumulationsMap.get(currentZonedDateTime);
+                EnumMap<StormSeverity, List<Integer>> crossedForThisTimeStep = crossedThresholdsPerTimestep
+                        .computeIfAbsent(currentZonedDateTime, x -> new EnumMap<>(StormSeverity.class));
+                for (StormSeverity stormSeverity : StormSeverity.values()) {
+                    AccumulationThresholder accumulationThresholder = accumulationThresholdProvider.getFor(stormDuration, stormSeverity);
+                    crossedForThisTimeStep.put(stormSeverity, accumulationThresholder.blocksCrossingThresholds(accumulatedData));
+                }
+            }
+
+            // at this point you could null out the timestep data
+            accumulationsMap.put(currentZonedDateTime, null);
         }
-        // the first, incomplete, sums are discarded, so only timesteps with n values are allowed
-        // where n is the number of timesteps in the storm
-        Map<ZonedDateTime, Map<Integer, Float>> neededSteps = sortedTimeSteps.stream()
-                .skip(accumulationSteps - 1)
-                .collect(Collectors.toMap(zdt -> zdt, accumulationsMap::get));
-
-        return neededSteps;
+        return crossedThresholdsPerTimestep;
     }
-
 
 }

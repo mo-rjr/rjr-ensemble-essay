@@ -14,7 +14,7 @@ import java.util.function.Function;
  * -- and also {this}
  */
 // TODO fill in Javadoc
-public class MaskedBilFileReader<T extends Number> implements AutoCloseable {
+public class AdvancingBilFileReader<T extends Number> implements AutoCloseable {
 
     private final Function<ByteBuffer, T> valueReader;
     private final String fileReference;
@@ -27,28 +27,18 @@ public class MaskedBilFileReader<T extends Number> implements AutoCloseable {
     private int bytesRead;
     private int currentPosition = 0;
     private T currentValue;
+    private boolean opened = false;
 
-    public MaskedBilFileReader(Function<ByteBuffer, T> valueReader, String fileReference, int rowLength, int bytesPerValue) {
+    public AdvancingBilFileReader(Function<ByteBuffer, T> valueReader, String fileReference, int rowLength, int bytesPerValue) {
         this.valueReader = valueReader;
         this.fileReference = fileReference;
         this.rowInBytes = rowLength * bytesPerValue;
     }
 
-    public void open() throws FileNotFoundException, IOException {
-        byteRow = new byte[rowInBytes];
-        bufferedInputStream = new BufferedInputStream(new FileInputStream(fileReference));
-        bytesRead = bufferedInputStream.read(byteRow);
-        if (bytesRead < 0) {
-            throw new RuntimeException("Couldn't read any bytes from file " + fileReference);
-        }
-
-        byteBuffer = ByteBuffer.wrap(byteRow).asReadOnlyBuffer();
-        byteBuffer.order(ByteOrder.LITTLE_ENDIAN);
-
-        currentValue = valueReader.apply(byteBuffer);
-    }
-
     public T readNext(int requiredPosition) throws IOException {
+        if (!opened) {
+            open();
+        }
 
         if (requiredPosition < currentPosition) {
             throw new IllegalArgumentException("");
@@ -72,6 +62,21 @@ public class MaskedBilFileReader<T extends Number> implements AutoCloseable {
         }
         throw new IllegalArgumentException("Could not retrieve value at " + requiredPosition +
                 ": got to end of file at position " + currentPosition);
+    }
+
+    private void open() throws FileNotFoundException, IOException {
+        byteRow = new byte[rowInBytes];
+        bufferedInputStream = new BufferedInputStream(new FileInputStream(fileReference));
+        bytesRead = bufferedInputStream.read(byteRow);
+        if (bytesRead < 0) {
+            throw new RuntimeException("Couldn't read any bytes from file " + fileReference);
+        }
+
+        byteBuffer = ByteBuffer.wrap(byteRow).asReadOnlyBuffer();
+        byteBuffer.order(ByteOrder.LITTLE_ENDIAN);
+
+        currentValue = valueReader.apply(byteBuffer);
+        opened = true;
     }
 
     @Override

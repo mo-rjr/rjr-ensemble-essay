@@ -19,9 +19,6 @@ import java.util.function.Function;
 // TODO fill in Javadoc
 public class ReadValuesForBlocks<T extends Number> {
 
-    // TODO
-//    private final InputStreamProvider inputStreamProvider;
-
     private final Function<ByteBuffer, T> valueReader;
 
     private final int numberOfBytesPerValue;

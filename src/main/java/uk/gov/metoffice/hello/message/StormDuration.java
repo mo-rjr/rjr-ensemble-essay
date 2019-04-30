@@ -31,6 +31,10 @@ public enum StormDuration {
         return timeSteps;
     }
 
+    public int getHours() {
+        return timeSteps / 4;
+    }
+
     public static Optional<StormDuration> getStormDuration(int timeSteps) {
         return Optional.ofNullable(TIME_STEPS_TO_STORM_DURATION.get(timeSteps));
     }
