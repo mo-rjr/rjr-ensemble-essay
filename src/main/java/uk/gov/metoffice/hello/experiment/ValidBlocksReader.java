@@ -1,8 +1,8 @@
 package uk.gov.metoffice.hello.experiment;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,11 +15,13 @@ import java.util.stream.Collectors;
 // TODO fill in Javadoc
 public class ValidBlocksReader {
 
-    private static final String GRID_2_GRID_BLOCKS = "C:\\Workarea\\rjr-ensemble-essay\\src\\main\\resources\\grid2GridSquares.txt";
+    private static final String GRID_2_GRID_BLOCKS_RESOURCE = "grid2GridSquares.txt";
     private static final String COMMA = ",";
 
     public List<Integer> readValidBlocks() {
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(GRID_2_GRID_BLOCKS))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(
+                ValidBlocksReader.class.getClassLoader().getResourceAsStream(GRID_2_GRID_BLOCKS_RESOURCE)
+        ))) {
 
             return bufferedReader.lines()
                     .map(this::trimOffEndComma)
