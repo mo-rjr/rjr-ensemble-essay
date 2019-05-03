@@ -1,20 +1,24 @@
-package uk.gov.metoffice.hello.experiment;
+package uk.gov.metoffice.hello.unit;
 
-import java.io.BufferedInputStream;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.function.Function;
 
 /**
- * {A thing} to {do something} for {another thing}
- * -- for example, {this}
- * -- and also {this}
+ * This is a reader for a BIL file.
+ * It can be either for Float data or Byte data.
+ * It uses a ByteBuffer set to Little-Endian byte-order, and reads one row into memory at a time.
+ *
+ * When asked to read a value, it requires the position in the file of the value to read.
+ * This makes it easy to use it to read BIL files of which we only want part of the data.
+ * It will throw an exception if it's asked to move backwards
+ * -- it needs each subsequent request to be for a later position in the file.
+ *
+ * It implements Closeable (and thereby AutoCloseable) so it can be used in try-with-resources blocks
+ *
  */
-// TODO fill in Javadoc
-public class AdvancingBilFileReader<T extends Number> implements AutoCloseable {
+public class AdvancingBilFileReader<T extends Number> implements Closeable {
 
     private final Function<ByteBuffer, T> valueReader;
     private final String fileReference;
@@ -29,7 +33,15 @@ public class AdvancingBilFileReader<T extends Number> implements AutoCloseable {
     private T currentValue;
     private boolean opened = false;
 
-    public AdvancingBilFileReader(Function<ByteBuffer, T> valueReader, String fileReference, int rowLength, int bytesPerValue) {
+    public static AdvancingBilFileReader<Float> forFloats(String fileReference, int rowLength) {
+        return new AdvancingBilFileReader<>(fileReference, rowLength, ByteBuffer::getFloat, Float.BYTES);
+    }
+
+    public static AdvancingBilFileReader<Short> forShorts(String fileReference, int rowLength) {
+        return new AdvancingBilFileReader<>(fileReference, rowLength, ByteBuffer::getShort, Short.BYTES);
+    }
+
+    private AdvancingBilFileReader(String fileReference, int rowLength, Function<ByteBuffer, T> valueReader, int bytesPerValue) {
         this.valueReader = valueReader;
         this.fileReference = fileReference;
         this.rowInBytes = rowLength * bytesPerValue;
@@ -61,7 +73,7 @@ public class AdvancingBilFileReader<T extends Number> implements AutoCloseable {
             byteBuffer.rewind();
         }
         throw new IllegalArgumentException("Could not retrieve value at " + requiredPosition +
-                ": got to end of file at position " + currentPosition);
+                " of " + fileReference + ": got to end of file at position " + currentPosition);
     }
 
     private void open() throws FileNotFoundException, IOException {
@@ -80,13 +92,10 @@ public class AdvancingBilFileReader<T extends Number> implements AutoCloseable {
     }
 
     @Override
-    public void close() {
+    public void close() throws IOException {
         if (bufferedInputStream != null) {
-            try {
-                bufferedInputStream.close();
-            } catch (IOException e) {
-                // TODO is it OK to swallow this exception?
-            }
+            bufferedInputStream.close();
         }
     }
+
 }

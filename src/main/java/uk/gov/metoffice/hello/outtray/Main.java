@@ -1,12 +1,8 @@
-package uk.gov.metoffice.hello;
+package uk.gov.metoffice.hello.outtray;
 
 import uk.gov.metoffice.hello.gatekeeper.AdminAreaReader;
 import uk.gov.metoffice.hello.gatekeeper.EnsembleDataReader;
 import uk.gov.metoffice.hello.message.*;
-import uk.gov.metoffice.hello.unit.Accumulator;
-import uk.gov.metoffice.hello.unit.ReadValuesForBlocks;
-import uk.gov.metoffice.hello.unit.Thresholder;
-import uk.gov.metoffice.hello.unit.UnitCalculationHandler;
 
 import java.nio.ByteBuffer;
 import java.time.ZonedDateTime;
@@ -30,7 +26,6 @@ public class Main {
     private static final String DATA_ROOT = "C:\\Workarea\\swf-him-jm\\TestData\\BirminghamFloods20180527\\" + ZIP_FILE_NAME + "\\";
     private static final String ENSEMBLE_XML = "grids_ENS0013.xml";
 
-
     private static final int W_MIDLANDS = 4;
     private static final int GTR_LONDON = 6;
     private static final int STOKE = 62;
@@ -47,7 +42,6 @@ public class Main {
         StormDuration stormDuration = StormDuration.ONE_HOUR;
 
         OneDurationOneEnsembleOneArea spec = setUpSpecification(stormDuration);
-
 
         Map<ZonedDateTime, Map<Integer, Float>> accumulated = accumulator.accumulateValues(spec);
         Map<ZonedDateTime, Map<Integer, Boolean>> output = thresholder.threshold(spec.getStormDuration(),

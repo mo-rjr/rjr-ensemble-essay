@@ -3,9 +3,10 @@ package uk.gov.metoffice.hello.experiment;
 import org.junit.Test;
 import uk.gov.metoffice.hello.gatekeeper.AdminAreaReader;
 import uk.gov.metoffice.hello.message.AdminArea;
+import uk.gov.metoffice.hello.outtray.ValidBlocksReader;
+import uk.gov.metoffice.hello.unit.AdvancingBilFileReader;
 
 import java.io.IOException;
-import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -18,7 +19,9 @@ import java.util.TreeSet;
  */
 // TODO fill in Javadoc
 public class AdvancingBilFileReaderTest {
+
     private static final String ADMIN_AREA_FILE = "C:\\Workarea\\rjr-ensemble-essay\\src\\main\\resources\\adminAreas.json";
+    public static final int ROW_LENGTH = 540;
 
     @Test
     public void readNextValidBlocks() throws IOException {
@@ -28,7 +31,7 @@ public class AdvancingBilFileReaderTest {
         List<Integer> validBlocks = new ValidBlocksReader().readValidBlocks();
         int noDataCount = 0;
 
-        try (AdvancingBilFileReader<Float> testObject = new AdvancingBilFileReader<>(ByteBuffer::getFloat, fileName, 540, Float.BYTES)) {
+        try (AdvancingBilFileReader<Float> testObject = AdvancingBilFileReader.forFloats(fileName, ROW_LENGTH)) {
 
             for (int step = 0; step < validBlocks.size(); step++) {
                 // act
@@ -59,7 +62,7 @@ public class AdvancingBilFileReaderTest {
 
         for (String fileName : fileNames) {
 
-            try (AdvancingBilFileReader<Float> testObject = new AdvancingBilFileReader<>(ByteBuffer::getFloat, root + fileName, 540, Float.BYTES)) {
+            try (AdvancingBilFileReader<Float> testObject = AdvancingBilFileReader.forFloats(root + fileName, ROW_LENGTH)) {
 
                 List<Integer> haveValues = new ArrayList<>();
                 for (int step = 0; step < sizeOfData; step++) {
@@ -86,7 +89,7 @@ public class AdvancingBilFileReaderTest {
         List<AdminArea> adminAreaList = adminAreaReader.read(ADMIN_AREA_FILE);
 
         List<Integer> noValues = new ArrayList<>();
-        try (AdvancingBilFileReader<Float> testObject = new AdvancingBilFileReader<>(ByteBuffer::getFloat, fileName, 540, Float.BYTES)) {
+        try (AdvancingBilFileReader<Float> testObject = AdvancingBilFileReader.forFloats(fileName, ROW_LENGTH)) {
             for (int step = 0; step < validBlocks.size(); step++) {
                 // act
                 Float result = testObject.readNext(validBlocks.get(step));
@@ -100,12 +103,8 @@ public class AdvancingBilFileReaderTest {
             TreeSet<Integer> missingSteps = new TreeSet<>(adminArea.getBlocks());
             missingSteps.retainAll(noValues);
 
-
             System.out.println(adminArea.getName() + " has " + missingSteps.size() + " missing values");
-
         }
-
-
 
     }
 }

@@ -1,4 +1,4 @@
-package uk.gov.metoffice.hello.unit;
+package uk.gov.metoffice.hello.outtray;
 
 import uk.gov.metoffice.hello.message.OneDurationOneEnsembleOneArea;
 

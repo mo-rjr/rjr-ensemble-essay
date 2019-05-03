@@ -1,4 +1,4 @@
-package uk.gov.metoffice.hello.experiment.output;
+package uk.gov.metoffice.hello.unit.implications;
 
 /**
  * {A thing} to {do something} for {another thing}
@@ -6,5 +6,8 @@ package uk.gov.metoffice.hello.experiment.output;
  * -- and also {this}
  */
 // TODO fill in Javadoc
-public class EnsembleExceedances {
+public class ImpactLevel {
+
+
+
 }

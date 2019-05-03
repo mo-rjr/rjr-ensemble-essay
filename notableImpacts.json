@@ -1,0 +1,1690 @@
+{
+  "ensemble" : "grids_ENS0005.xml",
+  "impacts" : {
+    "2018-05-27T20:00Z" : {
+      "183835" : {
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 3
+        }
+      },
+      "189797" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        }
+      },
+      "190877" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        }
+      },
+      "191445" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "192497" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 3
+        }
+      },
+      "192532" : {
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "193067" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "193071" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "193080" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "193581" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "193610" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "194138" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "194140" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "194667" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "194685" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "195201" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "195218" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "195230" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "195231" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "195742" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        }
+      },
+      "195747" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "195752" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "195769" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 3
+        }
+      },
+      "196291" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "196305" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 4,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 4
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 4
+        }
+      },
+      "196306" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "196828" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "196831" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "197391" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        }
+      },
+      "197392" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 4
+        }
+      },
+      "197922" : {
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "197932" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 4
+        }
+      },
+      "197933" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        }
+      },
+      "197934" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        }
+      },
+      "197935" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "198454" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "198475" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        }
+      },
+      "198477" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "199004" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "199544" : {
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "199553" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 3,
+          "POPULATION" : 2,
+          "MAXIMUM" : 3
+        }
+      },
+      "199554" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "200067" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "200074" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "200087" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "200615" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        }
+      },
+      "200624" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "201156" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        }
+      },
+      "202773" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 4,
+          "KEY_INFRASTRUCTURE" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 4
+        }
+      },
+      "204396" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "204452" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 4,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 4
+        }
+      },
+      "204940" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "232004" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "233626" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "233627" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "234167" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "234708" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "237954" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 3,
+          "KEY_INFRASTRUCTURE" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "238492" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 2,
+          "KEY_INFRASTRUCTURE" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "238495" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 4
+        }
+      },
+      "238496" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 4
+        }
+      },
+      "238497" : {
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 3,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "238498" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 3,
+          "KEY_INFRASTRUCTURE" : 1,
+          "POPULATION" : 2,
+          "MAXIMUM" : 3
+        }
+      },
+      "239574" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 4
+        }
+      },
+      "242822" : {
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "248251" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "248791" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "248792" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "249330" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "251480" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        }
+      },
+      "252019" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "252021" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "252562" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "260158" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      }
+    },
+    "2018-05-27T21:00Z" : {
+      "158438" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 2,
+          "KEY_INFRASTRUCTURE" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "161146" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "162223" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 3,
+          "KEY_INFRASTRUCTURE" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "162756" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 3,
+          "KEY_INFRASTRUCTURE" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "162762" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 3,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "162763" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 3,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "189797" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        }
+      },
+      "189820" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "191445" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "191996" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 1,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 1,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "KEY_INFRASTRUCTURE" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "192497" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 3
+        }
+      },
+      "192531" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "192532" : {
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "192535" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "193067" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "193071" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "193075" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "193080" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "193581" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "193610" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "194138" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "194140" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "194152" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "194667" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "194672" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "194685" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "194686" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "195201" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "195218" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "195230" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "195231" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "195742" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        }
+      },
+      "195747" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "195752" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "195769" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 3
+        }
+      },
+      "196291" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "196305" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 4,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 4
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 4
+        }
+      },
+      "196306" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "196828" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "196831" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "197391" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        }
+      },
+      "197392" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 4
+        }
+      },
+      "197929" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 3,
+          "KEY_INFRASTRUCTURE" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 4,
+          "KEY_INFRASTRUCTURE" : 1,
+          "POPULATION" : 2,
+          "MAXIMUM" : 4
+        }
+      },
+      "197932" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 4
+        }
+      },
+      "197933" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        }
+      },
+      "197934" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 4,
+          "MAXIMUM" : 4
+        }
+      },
+      "197935" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "198454" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "198475" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        }
+      },
+      "198477" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "199553" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 3,
+          "POPULATION" : 2,
+          "MAXIMUM" : 3
+        }
+      },
+      "199554" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "200074" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "200087" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "200615" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        }
+      },
+      "200624" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "201156" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 3,
+          "MAXIMUM" : 3
+        }
+      }
+    },
+    "2018-05-27T22:00Z" : {
+      "158438" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 2,
+          "KEY_INFRASTRUCTURE" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "161146" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "162223" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 3,
+          "KEY_INFRASTRUCTURE" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "162756" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 3,
+          "KEY_INFRASTRUCTURE" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "162762" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 3,
+          "POPULATION" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "162763" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 3,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 3
+        }
+      },
+      "189820" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "191445" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "191996" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 1,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 1,
+          "KEY_INFRASTRUCTURE" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "PROPERTY" : 2,
+          "KEY_INFRASTRUCTURE" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "192531" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "192532" : {
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "193067" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      },
+      "193071" : {
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "193075" : {
+        "THIRTY_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "193080" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "193610" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "194152" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "194685" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "195230" : {
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 2,
+          "MAXIMUM" : 2
+        }
+      },
+      "195231" : {
+        "ONE_THOUSAND_YEARS" : {
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        }
+      },
+      "196306" : {
+        "THIRTY_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_HUNDRED_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 1,
+          "POPULATION" : 1,
+          "MAXIMUM" : 1
+        },
+        "ONE_THOUSAND_YEARS" : {
+          "TRANSPORT" : 1,
+          "PROPERTY" : 2,
+          "POPULATION" : 1,
+          "MAXIMUM" : 2
+        }
+      }
+    }
+  }
+}

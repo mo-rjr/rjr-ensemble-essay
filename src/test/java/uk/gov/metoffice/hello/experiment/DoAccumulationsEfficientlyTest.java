@@ -4,6 +4,9 @@ import org.junit.Test;
 import uk.gov.metoffice.hello.gatekeeper.EnsembleDataReader;
 import uk.gov.metoffice.hello.message.Ensemble;
 import uk.gov.metoffice.hello.message.StormDuration;
+import uk.gov.metoffice.hello.outtray.DoAccumulationsEfficiently;
+import uk.gov.metoffice.hello.outtray.NicerAccumulationsStillEfficient;
+import uk.gov.metoffice.hello.outtray.ValidBlocksReader;
 
 import java.time.ZonedDateTime;
 import java.util.List;

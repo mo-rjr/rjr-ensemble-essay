@@ -1,4 +1,4 @@
-package uk.gov.metoffice.hello.experiment;
+package uk.gov.metoffice.hello.outtray;
 
 import uk.gov.metoffice.hello.message.Ensemble;
 import uk.gov.metoffice.hello.message.StormDuration;
