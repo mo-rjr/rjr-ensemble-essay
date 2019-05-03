@@ -4,6 +4,7 @@ import uk.gov.metoffice.hello.message.ImpactType;
 import uk.gov.metoffice.hello.message.StormDuration;
 import uk.gov.metoffice.hello.message.StormSeverity;
 import uk.gov.metoffice.hello.outtray.NewEnsembleExceedances;
+import uk.gov.metoffice.hello.unit.TimeLocationStorms;
 
 import java.time.ZonedDateTime;
 import java.util.*;
@@ -24,30 +25,29 @@ public class ImplicationCalculator {
         this.stormImpactLevelsProvider = stormImpactLevelsProvider;
     }
 
-    public TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<StormSeverity, EnumMap<ImpactType, Short>>>> calculateImpacts(NewEnsembleExceedances ensembleExceedances,
+    public TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> calculateImpacts(TimeLocationStorms timeLocationStorms,
                                                                                                                          StormDuration stormDuration) {
 
-        TreeMap<ZonedDateTime, TreeMap<Integer, List<StormSeverity>>> allAffectedInTimeStep = findAllAffectedInTimestep(
-                ensembleExceedances, stormDuration);
-        TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<StormSeverity, EnumMap<ImpactType, Short>>>> result = applyImpactLevels(allAffectedInTimeStep, stormDuration);
-        return result;
+        TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> allAffectedInTimeStep = timeLocationStorms.getStorms();
+        return applyImpactLevels(allAffectedInTimeStep, stormDuration);
     }
 
-    private TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<StormSeverity, EnumMap<ImpactType, Short>>>> applyImpactLevels(
-            TreeMap<ZonedDateTime, TreeMap<Integer, List<StormSeverity>>> allAffectedInTimeStep,
+    private TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> applyImpactLevels(
+            TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> allAffectedInTimeStep,
             StormDuration stormDuration) {
 
-        TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<StormSeverity, EnumMap<ImpactType, Short>>>> output = new TreeMap<>();
-        for (Map.Entry<ZonedDateTime, TreeMap<Integer, List<StormSeverity>>> dateTimeEntry : allAffectedInTimeStep.entrySet()) {
+        TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> output = new TreeMap<>();
+        for (Map.Entry<ZonedDateTime, TreeMap<Integer, StormSeverity>> dateTimeEntry : allAffectedInTimeStep.entrySet()) {
             ZonedDateTime zonedDateTime = dateTimeEntry.getKey();
 
-            for (Map.Entry<Integer, List<StormSeverity>> blockEntry : dateTimeEntry.getValue().entrySet()) {
+            for (Map.Entry<Integer, StormSeverity> blockEntry : dateTimeEntry.getValue().entrySet()) {
                 Integer affectedBlock = blockEntry.getKey();
+                StormSeverity stormSeverity = blockEntry.getValue();
                 StormImpactLevels stormImpactLevels = stormImpactLevelsProvider.getFor(stormDuration);
-                EnumMap<StormSeverity, EnumMap<ImpactType, Short>> severityImpacts = stormImpactLevels.getValuesPerImpactType(affectedBlock);
+                EnumMap<ImpactType, Short> severityImpacts = stormImpactLevels.getImpacts(affectedBlock, stormSeverity);
                 if (!severityImpacts.isEmpty()) {
                     output.computeIfAbsent(zonedDateTime, z -> new TreeMap<>())
-                            .computeIfAbsent(affectedBlock, i -> new EnumMap<>(StormSeverity.class))
+                            .computeIfAbsent(affectedBlock, i -> new EnumMap<>(ImpactType.class))
                             .putAll(severityImpacts);
 
                 }

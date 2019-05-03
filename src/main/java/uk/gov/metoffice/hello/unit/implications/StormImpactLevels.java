@@ -29,6 +29,27 @@ public class StormImpactLevels {
 
 
     /**
+     * Returns the impacts for this affected area at this storm severity (which is the calculated max)
+     * @param affectedBlock sq km affected
+     * @param stormSeverity max value for the intensity of the stor
+     * @return a map of impact type to value, empty if none
+     */
+    public EnumMap<ImpactType, Short> getImpacts(Integer affectedBlock, StormSeverity stormSeverity) {
+        EnumMap<ImpactType, Short> consequencesForThisBlock = new EnumMap<>(ImpactType.class);
+        EnumMap<ImpactType, Map<Integer, Short>> levelsPerSeverity = impactLevels.getOrDefault(stormSeverity,
+                new EnumMap<>(ImpactType.class));
+        for (ImpactType impactType : ImpactType.values()) {
+            short impactForThisBlock = levelsPerSeverity.getOrDefault(impactType, new HashMap<>())
+                    .getOrDefault(affectedBlock, ZERO);
+            if (impactForThisBlock > ZERO) {
+                consequencesForThisBlock.put(impactType, impactForThisBlock);
+            }
+        }
+        return consequencesForThisBlock;
+    }
+
+
+    /**
      * Returns the implications of the threshold-breaking block of data
      * Removes a block if it has no consequences
      *
@@ -79,4 +100,5 @@ public class StormImpactLevels {
     public StormDuration getStormDuration() {
         return stormDuration;
     }
+
 }

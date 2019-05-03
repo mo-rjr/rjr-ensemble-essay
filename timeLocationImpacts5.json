@@ -1,0 +1,344 @@
+{
+  "ensemble" : "grids_ENS0005.xml",
+  "impacts" : {
+    "2018-05-27T20:00Z" : {
+      "189797" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "190877" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "193067" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "194667" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "195201" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "195769" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "196291" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "196305" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 4
+      },
+      "196306" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "197391" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "197392" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "197932" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "197933" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "197934" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "197935" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "198475" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "198477" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "199553" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "200087" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "202773" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "204452" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "233627" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "234167" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "234708" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "237954" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "238492" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "238495" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "238496" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "238497" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "238498" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "239574" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "242822" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "248251" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "249330" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "252019" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      }
+    },
+    "2018-05-27T21:00Z" : {
+      "162223" : {
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 2
+      },
+      "162756" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "162762" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "162763" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "189797" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "191996" : {
+        "TRANSPORT" : 1,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 1
+      },
+      "192532" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "192535" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "193067" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "193071" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "193075" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "194667" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "195201" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "195230" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "195769" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "196291" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "196305" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 4
+      },
+      "196306" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "197391" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "197392" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "197929" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "197932" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "197933" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "197934" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "197935" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "198475" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "198477" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "199553" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "200087" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      }
+    },
+    "2018-05-27T22:00Z" : {
+      "162223" : {
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 2
+      },
+      "162756" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "162762" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "162763" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "191996" : {
+        "TRANSPORT" : 1,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 1
+      },
+      "192532" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "193067" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "193071" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "193075" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "195230" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "196306" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      }
+    }
+  }
+}
