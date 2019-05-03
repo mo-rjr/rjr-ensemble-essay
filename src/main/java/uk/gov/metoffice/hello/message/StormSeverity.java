@@ -8,9 +8,9 @@ package uk.gov.metoffice.hello.message;
 // TODO fill in Javadoc
 public enum StormSeverity {
 
-    THIRTY_YEARS(30),
+    ONE_THOUSAND_YEARS(1000),
     ONE_HUNDRED_YEARS(100),
-    ONE_THOUSAND_YEARS(1000);
+    THIRTY_YEARS(30);
 
     int years;
 
@@ -20,4 +20,9 @@ public enum StormSeverity {
 
     public int getYears() {
         return years;
-    }}
+    }
+
+    public boolean moreSevere(StormSeverity stormSeverity) {
+        return getYears() > stormSeverity.getYears();
+    }
+}

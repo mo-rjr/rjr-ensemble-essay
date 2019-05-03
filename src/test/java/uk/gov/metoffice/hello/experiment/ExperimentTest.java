@@ -7,12 +7,12 @@ import uk.gov.metoffice.hello.message.Ensemble;
 import uk.gov.metoffice.hello.message.StormDuration;
 import uk.gov.metoffice.hello.message.StormSeverity;
 import uk.gov.metoffice.hello.outtray.ValidBlocksReader;
-import uk.gov.metoffice.hello.unit.EnsembleExceedances;
-import uk.gov.metoffice.hello.unit.NotableImpacts;
+import uk.gov.metoffice.hello.outtray.EnsembleExceedances;
+import uk.gov.metoffice.hello.outtray.NotableImpacts;
 import uk.gov.metoffice.hello.unit.implications.ImplicationCalculator;
 import uk.gov.metoffice.hello.unit.implications.StormImpactLevelsProvider;
 import uk.gov.metoffice.hello.unit.thresholds.AccumulationThresholdProvider;
-import uk.gov.metoffice.hello.unit.thresholds.EnsembleThresholder;
+import uk.gov.metoffice.hello.outtray.EnsembleThresholder;
 
 import java.io.IOException;
 import java.io.PrintWriter;

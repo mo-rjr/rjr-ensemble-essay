@@ -3,7 +3,7 @@ package uk.gov.metoffice.hello.unit.implications;
 import uk.gov.metoffice.hello.message.ImpactType;
 import uk.gov.metoffice.hello.message.StormDuration;
 import uk.gov.metoffice.hello.message.StormSeverity;
-import uk.gov.metoffice.hello.unit.NewEnsembleExceedances;
+import uk.gov.metoffice.hello.outtray.NewEnsembleExceedances;
 
 import java.time.ZonedDateTime;
 import java.util.*;

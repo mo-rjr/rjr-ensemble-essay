@@ -1,6 +1,6 @@
 package uk.gov.metoffice.hello.experiment;
 
-import uk.gov.metoffice.hello.unit.NotableImpacts;
+import uk.gov.metoffice.hello.outtray.NotableImpacts;
 import uk.gov.metoffice.hello.unit.AdvancingBilFileReader;
 
 import java.io.IOException;

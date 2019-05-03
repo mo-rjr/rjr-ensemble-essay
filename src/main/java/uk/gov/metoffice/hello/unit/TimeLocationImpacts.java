@@ -1,11 +1,9 @@
 package uk.gov.metoffice.hello.unit;
 
 import uk.gov.metoffice.hello.message.ImpactType;
-import uk.gov.metoffice.hello.message.StormSeverity;
 
 import java.time.ZonedDateTime;
 import java.util.EnumMap;
-import java.util.Map;
 import java.util.TreeMap;
 
 /**
@@ -14,13 +12,12 @@ import java.util.TreeMap;
  * -- and also {this}
  */
 // TODO fill in Javadoc
-public class NotableImpacts {
-
+public class TimeLocationImpacts {
     private String ensemble;
 
-    private TreeMap<ZonedDateTime, EnumMap<StormSeverity, Map<Integer, EnumMap<ImpactType, Short>>>> impacts = new TreeMap<>();
+    private TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> impacts;
 
-    public NotableImpacts(String ensemble, TreeMap<ZonedDateTime, EnumMap<StormSeverity, Map<Integer, EnumMap<ImpactType, Short>>>> impacts) {
+    public TimeLocationImpacts(String ensemble, TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> impacts) {
         this.ensemble = ensemble;
         this.impacts = impacts;
     }
@@ -29,7 +26,7 @@ public class NotableImpacts {
         return ensemble;
     }
 
-    public TreeMap<ZonedDateTime, EnumMap<StormSeverity, Map<Integer, EnumMap<ImpactType, Short>>>> getImpacts() {
+    public TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> getImpacts() {
         return impacts;
     }
 }

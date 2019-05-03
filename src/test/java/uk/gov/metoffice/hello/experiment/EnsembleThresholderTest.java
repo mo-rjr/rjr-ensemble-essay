@@ -2,14 +2,14 @@ package uk.gov.metoffice.hello.experiment;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
-import uk.gov.metoffice.hello.unit.EnsembleExceedances;
+import uk.gov.metoffice.hello.outtray.EnsembleExceedances;
 import uk.gov.metoffice.hello.gatekeeper.EnsembleDataReader;
 import uk.gov.metoffice.hello.message.Ensemble;
 import uk.gov.metoffice.hello.message.StormDuration;
 import uk.gov.metoffice.hello.message.StormSeverity;
 import uk.gov.metoffice.hello.outtray.ValidBlocksReader;
 import uk.gov.metoffice.hello.unit.thresholds.AccumulationThresholdProvider;
-import uk.gov.metoffice.hello.unit.thresholds.EnsembleThresholder;
+import uk.gov.metoffice.hello.outtray.EnsembleThresholder;
 
 import java.io.IOException;
 import java.io.PrintWriter;

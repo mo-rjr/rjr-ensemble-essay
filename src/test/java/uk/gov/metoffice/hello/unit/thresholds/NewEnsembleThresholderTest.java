@@ -6,8 +6,9 @@ import uk.gov.metoffice.hello.gatekeeper.EnsembleDataReader;
 import uk.gov.metoffice.hello.message.Ensemble;
 import uk.gov.metoffice.hello.message.StormDuration;
 import uk.gov.metoffice.hello.message.StormSeverity;
+import uk.gov.metoffice.hello.outtray.NewEnsembleThresholder;
 import uk.gov.metoffice.hello.outtray.ValidBlocksReader;
-import uk.gov.metoffice.hello.unit.NewEnsembleExceedances;
+import uk.gov.metoffice.hello.outtray.NewEnsembleExceedances;
 
 import java.io.IOException;
 import java.io.PrintWriter;

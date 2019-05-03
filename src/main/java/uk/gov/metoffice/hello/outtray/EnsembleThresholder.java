@@ -1,9 +1,10 @@
-package uk.gov.metoffice.hello.unit.thresholds;
+package uk.gov.metoffice.hello.outtray;
 
 import uk.gov.metoffice.hello.unit.AdvancingBilFileReader;
 import uk.gov.metoffice.hello.message.Ensemble;
 import uk.gov.metoffice.hello.message.StormDuration;
 import uk.gov.metoffice.hello.message.StormSeverity;
+import uk.gov.metoffice.hello.unit.thresholds.AccumulationThresholdProvider;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

@@ -61,4 +61,24 @@ public class AccumulationThresholder {
                 .filter(stormSeverity -> thresholdCrossedAtThisSeverity(stormSeverity, block, rawValue))
                 .collect(Collectors.toList());
     }
+
+    /**
+     * Returns the highest storm severity crossed by this block, as long as it's higher than the given severity
+     * if it doesn't cross any higher severity, returns empty
+     *
+     * @param block          1km sq location
+     * @param rawValue       the accumulated max for that location
+     * @param severityToBeat the severity we already have
+     * @return the highest of any higher severity that is crossed, or else empty
+     */
+    public Optional<StormSeverity> increasedSeverityThresholdCrossed(Integer block, float rawValue, Optional<StormSeverity> severityToBeat) {
+        for (StormSeverity stormSeverity : StormSeverity.values()) {
+            if (!severityToBeat.isPresent() || stormSeverity.moreSevere(severityToBeat.get())) {
+                if (thresholdCrossedAtThisSeverity(stormSeverity, block, rawValue)) {
+                    return Optional.of(stormSeverity);
+                }
+            }
+        }
+        return Optional.empty();
+    }
 }
