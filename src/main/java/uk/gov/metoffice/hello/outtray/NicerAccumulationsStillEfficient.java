@@ -1,8 +1,8 @@
 package uk.gov.metoffice.hello.outtray;
 
-import uk.gov.metoffice.hello.message.Ensemble;
-import uk.gov.metoffice.hello.message.StormDuration;
-import uk.gov.metoffice.hello.unit.AdvancingBilFileReader;
+import uk.gov.metoffice.hello.domain.Ensemble;
+import uk.gov.metoffice.hello.domain.StormDuration;
+import uk.gov.metoffice.hello.explode.AdvancingBilFileReader;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

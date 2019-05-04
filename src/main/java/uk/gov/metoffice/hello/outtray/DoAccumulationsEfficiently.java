@@ -1,7 +1,7 @@
 package uk.gov.metoffice.hello.outtray;
 
-import uk.gov.metoffice.hello.message.Ensemble;
-import uk.gov.metoffice.hello.message.StormDuration;
+import uk.gov.metoffice.hello.domain.Ensemble;
+import uk.gov.metoffice.hello.domain.StormDuration;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;

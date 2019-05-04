@@ -4,7 +4,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-import uk.gov.metoffice.hello.message.Ensemble;
+import uk.gov.metoffice.hello.domain.Ensemble;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;

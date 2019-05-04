@@ -1,6 +1,6 @@
 package uk.gov.metoffice.hello.outtray;
 
-import uk.gov.metoffice.hello.message.*;
+import uk.gov.metoffice.hello.domain.*;
 
 import java.time.ZonedDateTime;
 import java.util.Map;

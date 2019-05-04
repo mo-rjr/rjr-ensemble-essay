@@ -1,7 +1,7 @@
 package uk.gov.metoffice.hello.outtray;
 
-import uk.gov.metoffice.hello.message.ImpactType;
-import uk.gov.metoffice.hello.message.StormSeverity;
+import uk.gov.metoffice.hello.domain.ImpactType;
+import uk.gov.metoffice.hello.domain.StormSeverity;
 
 import java.time.ZonedDateTime;
 import java.util.EnumMap;

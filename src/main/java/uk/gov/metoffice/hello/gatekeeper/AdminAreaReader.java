@@ -1,7 +1,7 @@
 package uk.gov.metoffice.hello.gatekeeper;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import uk.gov.metoffice.hello.message.AdminArea;
+import uk.gov.metoffice.hello.domain.AdminArea;
 
 import java.io.FileInputStream;
 import java.io.IOException;

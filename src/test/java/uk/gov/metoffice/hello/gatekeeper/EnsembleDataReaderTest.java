@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Assert;
 import org.junit.Test;
-import uk.gov.metoffice.hello.message.Ensemble;
+import uk.gov.metoffice.hello.domain.Ensemble;
 
 public class EnsembleDataReaderTest {
 
@@ -12,7 +12,6 @@ public class EnsembleDataReaderTest {
     public void create() {
         // arrange
         Exception exception = null;
-
 
         // act
         try {
@@ -35,7 +34,6 @@ public class EnsembleDataReaderTest {
 
         // act
         Ensemble result = ensembleDataReader.readFromXmlFile(zipFile, DATA_ROOT, ENSEMBLE_XML);
-
 
         // assert
         ObjectMapper objectMapper = new ObjectMapper();

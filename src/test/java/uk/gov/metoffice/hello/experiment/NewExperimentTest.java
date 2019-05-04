@@ -3,17 +3,17 @@ package uk.gov.metoffice.hello.experiment;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
 import uk.gov.metoffice.hello.gatekeeper.EnsembleDataReader;
-import uk.gov.metoffice.hello.message.Ensemble;
-import uk.gov.metoffice.hello.message.ImpactType;
-import uk.gov.metoffice.hello.message.StormDuration;
-import uk.gov.metoffice.hello.message.StormSeverity;
+import uk.gov.metoffice.hello.domain.Ensemble;
+import uk.gov.metoffice.hello.domain.ImpactType;
+import uk.gov.metoffice.hello.domain.StormDuration;
+import uk.gov.metoffice.hello.domain.StormSeverity;
 import uk.gov.metoffice.hello.outtray.ValidBlocksReader;
-import uk.gov.metoffice.hello.unit.TimeLocationImpacts;
-import uk.gov.metoffice.hello.unit.TimeLocationStorms;
-import uk.gov.metoffice.hello.unit.implications.ImplicationCalculator;
-import uk.gov.metoffice.hello.unit.implications.StormImpactLevelsProvider;
-import uk.gov.metoffice.hello.unit.thresholds.AccumulationThresholdProvider;
-import uk.gov.metoffice.hello.unit.thresholds.MaxSeverityEnsembleThresholder;
+import uk.gov.metoffice.hello.domain.TimeLocationImpacts;
+import uk.gov.metoffice.hello.domain.TimeLocationStorms;
+import uk.gov.metoffice.hello.explode.impacts.ImplicationCalculator;
+import uk.gov.metoffice.hello.explode.impacts.StormImpactLevelsProvider;
+import uk.gov.metoffice.hello.explode.thresholds.AccumulationThresholdProvider;
+import uk.gov.metoffice.hello.explode.thresholds.MaxSeverityEnsembleThresholder;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -27,6 +27,7 @@ import java.util.stream.IntStream;
 import static org.junit.Assert.assertNotNull;
 
 public class NewExperimentTest {
+    // TODO this one is real, get rid of the others
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 

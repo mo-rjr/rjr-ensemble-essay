@@ -2,7 +2,7 @@ package uk.gov.metoffice.hello.outtray;
 
 import uk.gov.metoffice.hello.gatekeeper.AdminAreaReader;
 import uk.gov.metoffice.hello.gatekeeper.EnsembleDataReader;
-import uk.gov.metoffice.hello.message.*;
+import uk.gov.metoffice.hello.domain.*;
 
 import java.nio.ByteBuffer;
 import java.time.ZonedDateTime;
