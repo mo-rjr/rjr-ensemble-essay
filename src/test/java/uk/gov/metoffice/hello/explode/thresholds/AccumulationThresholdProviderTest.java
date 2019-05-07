@@ -27,9 +27,9 @@ public class AccumulationThresholdProviderTest {
 //        // assert
 //        assertNotNull(result);
 //        System.out.println(result.getThresholdsPerBlock().size());
-//        List<Integer> noDataPositions = result.getThresholdsPerBlock().entrySet().stream().filter(entry -> entry.getValue() < 0).map(Map.Entry::getKey).collect(Collectors.toList());
+//        List<Integer> noDataPositions = result.getThresholdsPerBlock().entrySet().stream().filter(entry -> entry.getShortValue() < 0).map(Map.Entry::getKey).collect(Collectors.toList());
 //        System.out.println("No data values at " + noDataPositions.size());
-//        List<Integer> zeroPositions = result.getThresholdsPerBlock().entrySet().stream().filter(entry -> entry.getValue() == 0).map(Map.Entry::getKey).collect(Collectors.toList());
+//        List<Integer> zeroPositions = result.getThresholdsPerBlock().entrySet().stream().filter(entry -> entry.getShortValue() == 0).map(Map.Entry::getKey).collect(Collectors.toList());
 //        System.out.println("Zero data values at " + zeroPositions.size());
 //        System.out.println(result.getFileName());
 //    }

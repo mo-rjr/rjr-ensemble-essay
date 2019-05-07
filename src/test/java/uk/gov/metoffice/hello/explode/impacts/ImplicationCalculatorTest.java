@@ -17,7 +17,7 @@ public class ImplicationCalculatorTest {
 //        // arrange
 //        List<Integer> validBlocks = new ValidBlocksReader().readValidBlocks();
 //        StormImpactLevelsProvider stormImpactLevelsProvider = new StormImpactLevelsProvider(ROOT, validBlocks);
-//        ImplicationCalculator testObject = new ImplicationCalculator(stormImpactLevelsProvider);
+//        ImpactCalculator testObject = new ImpactCalculator(stormImpactLevelsProvider);
 //        TreeMap<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> thresholdsExceeded = makeTheMap();
 ////        EnsembleExceedances ensembleExceedances = new EnsembleExceedances("testEnsemble",
 ////                thresholdsExceeded);

@@ -71,7 +71,8 @@ public class AccumulationThresholder {
      * @param severityToBeat the severity we already have
      * @return the highest of any higher severity that is crossed, or else empty
      */
-    public Optional<StormSeverity> increasedSeverityThresholdCrossed(Integer block, float rawValue, Optional<StormSeverity> severityToBeat) {
+    public Optional<StormSeverity> increasedSeverityThresholdCrossed(Integer block, float rawValue,
+                                                                     Optional<StormSeverity> severityToBeat) {
         for (StormSeverity stormSeverity : StormSeverity.values()) {
             if (!severityToBeat.isPresent() || stormSeverity.moreSevere(severityToBeat.get())) {
                 if (thresholdCrossedAtThisSeverity(stormSeverity, block, rawValue)) {

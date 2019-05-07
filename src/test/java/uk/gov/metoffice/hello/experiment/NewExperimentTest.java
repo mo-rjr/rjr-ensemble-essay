@@ -10,7 +10,7 @@ import uk.gov.metoffice.hello.domain.StormSeverity;
 import uk.gov.metoffice.hello.outtray.ValidBlocksReader;
 import uk.gov.metoffice.hello.domain.TimeLocationImpacts;
 import uk.gov.metoffice.hello.domain.TimeLocationStorms;
-import uk.gov.metoffice.hello.explode.impacts.ImplicationCalculator;
+import uk.gov.metoffice.hello.explode.impacts.ImpactCalculator;
 import uk.gov.metoffice.hello.explode.impacts.StormImpactLevelsProvider;
 import uk.gov.metoffice.hello.explode.thresholds.AccumulationThresholdProvider;
 import uk.gov.metoffice.hello.explode.thresholds.MaxSeverityEnsembleThresholder;
@@ -76,13 +76,13 @@ public class NewExperimentTest {
         AccumulationThresholdProvider accumulationThresholdProvider = new AccumulationThresholdProvider(THRESHOLD_DATA_ROOT, validBlocks);
         MaxSeverityEnsembleThresholder maxSeverityEnsembleThresholder = new MaxSeverityEnsembleThresholder(accumulationThresholdProvider);
         StormImpactLevelsProvider stormImpactLevelsProvider = new StormImpactLevelsProvider(IMPACT_DATA_ROOT, validBlocks);
-        ImplicationCalculator implicationCalculator = new ImplicationCalculator(stormImpactLevelsProvider);
+        ImpactCalculator impactCalculator = new ImpactCalculator(stormImpactLevelsProvider);
 
         // act
         TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> intermediaryResult = maxSeverityEnsembleThresholder.calculateExceededBlocks(ensemble,
                 stormDuration, validBlocks);
         TimeLocationStorms timeLocationStorms = new TimeLocationStorms(ensembleXmlFileName, intermediaryResult);
-        TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> result = implicationCalculator.calculateImpacts(timeLocationStorms, stormDuration);
+        TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> result = impactCalculator.calculateImpacts(timeLocationStorms, stormDuration);
 
         // assert
         assertNotNull(intermediaryResult);
@@ -99,7 +99,7 @@ public class NewExperimentTest {
 //
 //    private void assertHigherSeveritySubsetOfLower(EnsembleExceedances ensembleExceedances, StormSeverity higher, StormSeverity lower) {
 //        for (Map.Entry<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> entry : ensembleExceedances.getThresholdsExceeded().entrySet()) {
-//            EnumMap<StormSeverity, List<Integer>> exceededMap = entry.getValue();
+//            EnumMap<StormSeverity, List<Integer>> exceededMap = entry.getShortValue();
 //            List<Integer> lowerThresholds = exceededMap.get(lower);
 //            List<Integer> higherThresholds = exceededMap.get(higher);
 //            assertFalse(lowerThresholds == null && higherThresholds != null);

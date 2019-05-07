@@ -87,7 +87,7 @@ public class NewEnsembleThresholderTest {
 //
 //    private void assertHigherSeveritySubsetOfLower(NewEnsembleExceedances newEnsembleExceedances, StormSeverity higher, StormSeverity lower) {
 //        for ( Map.Entry<ZonedDateTime, TreeMap<Integer, List<StormSeverity>>> entry : newEnsembleExceedances.getThresholdsExceeded().entrySet()) {
-//            EnumMap<StormSeverity, List<Integer>> exceededMap = entry.getValue();
+//            EnumMap<StormSeverity, List<Integer>> exceededMap = entry.getShortValue();
 //            List<Integer> lowerThresholds = exceededMap.get(lower);
 //            List<Integer> higherThresholds = exceededMap.get(higher);
 //            assertFalse(lowerThresholds == null && higherThresholds != null);

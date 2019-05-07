@@ -17,13 +17,14 @@ import java.util.stream.IntStream;
  * -- and also {this}
  */
 // TODO fill in Javadoc
-public class ImplicationCalculator {
+public class ImpactCalculator {
 
     private final StormImpactLevelsProvider stormImpactLevelsProvider;
 
-    public ImplicationCalculator(StormImpactLevelsProvider stormImpactLevelsProvider) {
+    public ImpactCalculator(StormImpactLevelsProvider stormImpactLevelsProvider) {
         this.stormImpactLevelsProvider = stormImpactLevelsProvider;
     }
+
 
     public TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> calculateImpacts(TimeLocationStorms timeLocationStorms,
                                                                                                                          StormDuration stormDuration) {
@@ -67,11 +68,11 @@ public class ImplicationCalculator {
 //        for (Map.Entry<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> dateTimeEntry : allAffectedInTimeStep.entrySet()) {
 //            ZonedDateTime zonedDateTime = dateTimeEntry.getKey();
 //
-//            for (Map.Entry<StormSeverity, List<Integer>> severityEntry : dateTimeEntry.getValue().entrySet()) {
+//            for (Map.Entry<StormSeverity, List<Integer>> severityEntry : dateTimeEntry.getShortValue().entrySet()) {
 ////                StormSeverity stormSeverity = severityEntry.getKey();
 //                StormImpactLevels stormImpactLevels = stormImpactLevelsProvider.getFor(stormDuration);
 //
-//                for (Integer affectedBlock : severityEntry.getValue()) {
+//                for (Integer affectedBlock : severityEntry.getShortValue()) {
 //                    EnumMap<StormSeverity, EnumMap<ImpactType, Short>> res = stormImpactLevels.getValuesPerImpactType(affectedBlock);
 //                    if (!res.isEmpty()) {
 //                        output.computeIfAbsent(zonedDateTime, z -> new TreeMap<>())
@@ -94,10 +95,10 @@ public class ImplicationCalculator {
 //        TreeMap<ZonedDateTime, EnumMap<StormSeverity, Map<Integer, EnumMap<ImpactType, Short>>>> output = new TreeMap<>();
 //        for (Map.Entry<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> dateTimeEntry : allAffectedInTimeStep.entrySet()) {
 //            ZonedDateTime zonedDateTime = dateTimeEntry.getKey();
-//            for (Map.Entry<StormSeverity, List<Integer>> severityEntry : dateTimeEntry.getValue().entrySet()) {
+//            for (Map.Entry<StormSeverity, List<Integer>> severityEntry : dateTimeEntry.getShortValue().entrySet()) {
 //                StormSeverity stormSeverity = severityEntry.getKey();
 //                StormImpactLevels stormImpactLevels = stormImpactLevelsProvider.getFor(stormDuration, stormSeverity);
-//                Map<Integer, EnumMap<ImpactType, Short>> consequences = stormImpactLevels.getValuesPerImpactType(severityEntry.getValue());
+//                Map<Integer, EnumMap<ImpactType, Short>> consequences = stormImpactLevels.getValuesPerImpactType(severityEntry.getShortValue());
 //                EnumMap<StormSeverity, Map<Integer, EnumMap<ImpactType, Short>>> result = output.computeIfAbsent(zonedDateTime, z -> new EnumMap<>(StormSeverity.class));
 //                result.put(stormSeverity, consequences);
 //            }
@@ -126,7 +127,7 @@ public class ImplicationCalculator {
         return indexesOfHourlyValuesInList.stream()
                 .collect(Collectors.toMap(sortedTimes::get,
                         index -> calculateMax(thresholded, sortedTimes, stepsRequiredForMax, index),
-                        ImplicationCalculator::combine,
+                        ImpactCalculator::combine,
                         TreeMap::new));
     }
 
@@ -137,8 +138,8 @@ public class ImplicationCalculator {
                 .filter(i -> i >= 0)
                 .mapToObj(i -> thresholded.get(sortedTimes.get(i)))
                 .collect(TreeMap::new,
-                        ImplicationCalculator::combine,
-                        ImplicationCalculator::combine);
+                        ImpactCalculator::combine,
+                        ImpactCalculator::combine);
 
     }
 

@@ -2,11 +2,11 @@ package uk.gov.metoffice.hello.outtray;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
+import uk.gov.metoffice.hello.explode.impacts.ImpactCalculator;
 import uk.gov.metoffice.hello.gatekeeper.EnsembleDataReader;
 import uk.gov.metoffice.hello.domain.Ensemble;
 import uk.gov.metoffice.hello.domain.StormDuration;
 import uk.gov.metoffice.hello.domain.StormSeverity;
-import uk.gov.metoffice.hello.explode.impacts.ImplicationCalculator;
 import uk.gov.metoffice.hello.explode.impacts.StormImpactLevelsProvider;
 import uk.gov.metoffice.hello.explode.thresholds.AccumulationThresholdProvider;
 
@@ -75,7 +75,7 @@ public class ExperimentTest {
         EnsembleThresholder ensembleThresholder = new EnsembleThresholder(accumulationThresholdProvider);
 
         StormImpactLevelsProvider stormImpactLevelsProvider = new StormImpactLevelsProvider(IMPACT_DATA_ROOT, validBlocks);
-        ImplicationCalculator implicationCalculator = new ImplicationCalculator(stormImpactLevelsProvider);
+        ImpactCalculator impactCalculator = new ImpactCalculator(stormImpactLevelsProvider);
 
         // act
         TreeMap<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> result = ensembleThresholder.calculateExceededBlocks(ensemble,
@@ -86,7 +86,7 @@ public class ExperimentTest {
 
         EnsembleExceedances ensembleExceedances = new EnsembleExceedances(ensembleXmlFileName, result);
 
-//        TreeMap<ZonedDateTime, EnumMap<StormSeverity, Map<Integer, EnumMap<ImpactType, Short>>>> output = implicationCalculator.calculateImpacts(ensembleExceedances, stormDuration);
+//        TreeMap<ZonedDateTime, EnumMap<StormSeverity, Map<Integer, EnumMap<ImpactType, Short>>>> output = impactCalculator.calculateImpacts(ensembleExceedances, stormDuration);
 
 //        return new NotableImpacts(ensembleXmlFileName, output);
         throw new NotYetConnectedException();
