@@ -1,7 +1,7 @@
-package uk.gov.metoffice.hello.outtray;
+package uk.gov.metoffice.hello.explode;
 
 import org.junit.Test;
-import uk.gov.metoffice.hello.outtray.ValidBlocksReader;
+import uk.gov.metoffice.hello.explode.ValidBlocksReader;
 
 import java.util.List;
 

@@ -1,9 +1,8 @@
 package uk.gov.metoffice.hello.explode;
 
 import org.junit.Test;
-import uk.gov.metoffice.hello.gatekeeper.AdminAreaReader;
+import uk.gov.metoffice.hello.area.AdminAreaReader;
 import uk.gov.metoffice.hello.domain.AdminArea;
-import uk.gov.metoffice.hello.outtray.ValidBlocksReader;
 
 import java.io.IOException;
 import java.util.ArrayList;

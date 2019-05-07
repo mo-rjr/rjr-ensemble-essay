@@ -3,12 +3,10 @@ package uk.gov.metoffice.hello.explode.impacts;
 import uk.gov.metoffice.hello.domain.ImpactType;
 import uk.gov.metoffice.hello.domain.StormDuration;
 import uk.gov.metoffice.hello.domain.StormSeverity;
-import uk.gov.metoffice.hello.outtray.NewEnsembleExceedances;
 import uk.gov.metoffice.hello.domain.TimeLocationStorms;
 
 import java.time.ZonedDateTime;
 import java.util.*;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
@@ -24,7 +22,6 @@ public class ImpactCalculator {
     public ImpactCalculator(StormImpactLevelsProvider stormImpactLevelsProvider) {
         this.stormImpactLevelsProvider = stormImpactLevelsProvider;
     }
-
 
     public TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> calculateImpacts(TimeLocationStorms timeLocationStorms,
                                                                                                                          StormDuration stormDuration) {
@@ -58,79 +55,6 @@ public class ImpactCalculator {
 
     }
 
-
-//    // TODO this one is the more recent but still not finished
-//    private TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<StormSeverity, EnumMap<ImpactType, Short>>>> applyImpactLevels(Map<ZonedDateTime,
-//            EnumMap<StormSeverity, List<Integer>>> allAffectedInTimeStep, StormDuration stormDuration) {
-//
-//        TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<StormSeverity, EnumMap<ImpactType, Short>>>> output = new TreeMap<>();
-////        TreeMap<ZonedDateTime, EnumMap<StormSeverity, Map<Integer, EnumMap<ImpactType, Short>>>> output = new TreeMap<>();
-//        for (Map.Entry<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> dateTimeEntry : allAffectedInTimeStep.entrySet()) {
-//            ZonedDateTime zonedDateTime = dateTimeEntry.getKey();
-//
-//            for (Map.Entry<StormSeverity, List<Integer>> severityEntry : dateTimeEntry.getShortValue().entrySet()) {
-////                StormSeverity stormSeverity = severityEntry.getKey();
-//                StormImpactLevels stormImpactLevels = stormImpactLevelsProvider.getFor(stormDuration);
-//
-//                for (Integer affectedBlock : severityEntry.getShortValue()) {
-//                    EnumMap<StormSeverity, EnumMap<ImpactType, Short>> res = stormImpactLevels.getValuesPerImpactType(affectedBlock);
-//                    if (!res.isEmpty()) {
-//                        output.computeIfAbsent(zonedDateTime, z -> new TreeMap<>())
-//                                .computeIfAbsent(affectedBlock, i -> new EnumMap<>(StormSeverity.class))
-//                                .putAll(res);
-//                    }
-//
-//                }
-//
-//            }
-//        }
-//        return output;
-//
-//    }
-
-// TODO this one is the old one
-//    private TreeMap<ZonedDateTime, EnumMap<StormSeverity, Map<Integer, EnumMap<ImpactType, Short>>>> applyImpactLevels(Map<ZonedDateTime,
-//            EnumMap<StormSeverity, List<Integer>>> allAffectedInTimeStep, StormDuration stormDuration) {
-//
-//        TreeMap<ZonedDateTime, EnumMap<StormSeverity, Map<Integer, EnumMap<ImpactType, Short>>>> output = new TreeMap<>();
-//        for (Map.Entry<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> dateTimeEntry : allAffectedInTimeStep.entrySet()) {
-//            ZonedDateTime zonedDateTime = dateTimeEntry.getKey();
-//            for (Map.Entry<StormSeverity, List<Integer>> severityEntry : dateTimeEntry.getShortValue().entrySet()) {
-//                StormSeverity stormSeverity = severityEntry.getKey();
-//                StormImpactLevels stormImpactLevels = stormImpactLevelsProvider.getFor(stormDuration, stormSeverity);
-//                Map<Integer, EnumMap<ImpactType, Short>> consequences = stormImpactLevels.getValuesPerImpactType(severityEntry.getShortValue());
-//                EnumMap<StormSeverity, Map<Integer, EnumMap<ImpactType, Short>>> result = output.computeIfAbsent(zonedDateTime, z -> new EnumMap<>(StormSeverity.class));
-//                result.put(stormSeverity, consequences);
-//            }
-//        }
-//        return output;
-//
-//    }
-
-
-    private TreeMap<ZonedDateTime, TreeMap<Integer, List<StormSeverity>>> findAllAffectedInTimestep(NewEnsembleExceedances newEnsembleExceedances,
-                                                                                                    StormDuration stormDuration) {
-
-        TreeMap<ZonedDateTime, TreeMap<Integer, List<StormSeverity>>> thresholded = newEnsembleExceedances.getThresholdsExceeded();
-
-        List<ZonedDateTime> sortedTimes = thresholded.keySet().stream()
-                .sorted()
-                .collect(Collectors.toList());
-
-        List<Integer> indexesOfHourlyValuesInList = IntStream.range(0, thresholded.size())
-                .filter(i -> sortedTimes.get(i).getMinute() == 0)
-                .boxed()
-                .collect(Collectors.toList());
-
-        int stepsRequiredForMax = stormDuration.getTimeSteps() + 1;
-
-        return indexesOfHourlyValuesInList.stream()
-                .collect(Collectors.toMap(sortedTimes::get,
-                        index -> calculateMax(thresholded, sortedTimes, stepsRequiredForMax, index),
-                        ImpactCalculator::combine,
-                        TreeMap::new));
-    }
-
     private TreeMap<Integer, List<StormSeverity>> calculateMax(TreeMap<ZonedDateTime, TreeMap<Integer, List<StormSeverity>>> thresholded,
                                                                List<ZonedDateTime> sortedTimes,
                                                                int stepsRequiredForMax, int index) {
@@ -150,18 +74,5 @@ public class ImpactCalculator {
         }
         return first;
     }
-
-//    private EnumMap<StormSeverity, List<Integer>> calculateMax(TreeMap<ZonedDateTime, TreeMap<Integer, List<StormSeverity>>> thresholded,
-//                                                               List<ZonedDateTime> sortedTimes, int stepsRequiredForMax, int index) {
-//
-//        return IntStream.rangeClosed(index - stepsRequiredForMax + 1, index)
-//                .filter(i -> i >= 0)
-//                .mapToObj(i -> thresholded.get(sortedTimes.get(i)))
-//                .collect(() -> new EnumMap<>(StormSeverity.class),
-//                        EnumMap::putAll,
-//                        EnumMap::putAll);
-//
-//    }
-
 
 }

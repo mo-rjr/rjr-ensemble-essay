@@ -6,7 +6,7 @@ import uk.gov.metoffice.hello.gatekeeper.EnsembleDataReader;
 import uk.gov.metoffice.hello.domain.Ensemble;
 import uk.gov.metoffice.hello.domain.StormDuration;
 import uk.gov.metoffice.hello.domain.StormSeverity;
-import uk.gov.metoffice.hello.outtray.ValidBlocksReader;
+import uk.gov.metoffice.hello.explode.ValidBlocksReader;
 import uk.gov.metoffice.hello.domain.TimeLocationStorms;
 
 import java.io.IOException;

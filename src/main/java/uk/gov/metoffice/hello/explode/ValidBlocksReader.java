@@ -1,4 +1,4 @@
-package uk.gov.metoffice.hello.outtray;
+package uk.gov.metoffice.hello.explode;
 
 import java.io.BufferedReader;
 import java.io.IOException;

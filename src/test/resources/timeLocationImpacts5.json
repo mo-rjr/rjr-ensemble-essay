@@ -1,0 +1,5956 @@
+{
+  "ensemble" : "grids_ENS0005.xml",
+  "impacts" : {
+    "2018-05-27T18:00Z" : {
+      "170229" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "170231" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "173469" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "174014" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "174017" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "174019" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "174553" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "174559" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "174560" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "175094" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "175099" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "175633" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "175634" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "176172" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "176715" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "176717" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "176718" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "176719" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "176723" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "176724" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "177255" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "177256" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "177257" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "177262" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "177797" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "177799" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "177800" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "178335" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "178336" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "178337" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "178338" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "178340" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "178878" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "179421" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "179961" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "179962" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "180502" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "182148" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "182159" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "182160" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "184865" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "184871" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "185379" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "185936" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "185942" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "186459" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "186482" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "186995" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "187031" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "187543" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "187568" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "187574" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "188113" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "188638" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "189191" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "189192" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "189735" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "189736" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "190264" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "190266" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "190802" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "190803" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "190807" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "191348" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "191881" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "191898" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192423" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192427" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "192428" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "192431" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "192435" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192439" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "192966" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "192973" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "192974" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192976" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "192977" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "192979" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192980" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "192981" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192983" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192986" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "193505" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "193514" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "193521" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "193523" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "193524" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "193528" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 3
+      },
+      "195113" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "195143" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "195144" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "195148" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "195662" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "195663" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "195676" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "195680" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "195682" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "195685" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "195688" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "196222" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "196226" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "196227" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "196733" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "196735" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "196759" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "197836" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "198375" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "200002" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "200535" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "201613" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "203240" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "203243" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "203245" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "203786" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "204862" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "205453" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "207062" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "208149" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "208688" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "208689" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "209231" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "209769" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "210307" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "210309" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "210319" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "210849" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "210850" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 4
+      },
+      "210851" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "210852" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "211391" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 2,
+        "MAXIMUM" : 3
+      },
+      "211935" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "212477" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "212497" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "212498" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "213562" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "213571" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "213572" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "214100" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "214102" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "214104" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "214106" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "214107" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "214111" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "214112" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "214118" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "214641" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "214642" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "214644" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "214646" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "214647" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "214648" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "214649" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "POPULATION" : 3,
+        "MAXIMUM" : 4
+      },
+      "214650" : {
+        "PROPERTY" : 3,
+        "MAXIMUM" : 3
+      },
+      "214651" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "214652" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "214653" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "214656" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "214657" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 4
+      },
+      "214658" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "214659" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 3
+      },
+      "214660" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "215186" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215187" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215189" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "215190" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "215191" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "215192" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215193" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "215194" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "215195" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "215196" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "215197" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "215198" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215199" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "215200" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "215201" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "215202" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215725" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215726" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215727" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "215728" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "215729" : {
+        "PROPERTY" : 4,
+        "POPULATION" : 3,
+        "MAXIMUM" : 4
+      },
+      "215730" : {
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "215731" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "215732" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "POPULATION" : 4,
+        "MAXIMUM" : 4
+      },
+      "215733" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "215734" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215735" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "215736" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "215737" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "215738" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "215739" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "215740" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "215741" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "215742" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "216265" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "216266" : {
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 3,
+        "MAXIMUM" : 4
+      },
+      "216267" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "216268" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "216269" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216270" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 4,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "216271" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216272" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "POPULATION" : 4,
+        "MAXIMUM" : 4
+      },
+      "216273" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "216274" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216275" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "216276" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "216277" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "216278" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "216279" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "216280" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "216281" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216282" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "216807" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "216808" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "216809" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 3,
+        "MAXIMUM" : 4
+      },
+      "216810" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216811" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "216812" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216813" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "216814" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216815" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "216816" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "216817" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216818" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "216819" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 4
+      },
+      "216820" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216821" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 3,
+        "MAXIMUM" : 4
+      },
+      "216822" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "217347" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217348" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "217349" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 4,
+        "POPULATION" : 3,
+        "MAXIMUM" : 4
+      },
+      "217350" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "217351" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "217352" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "217353" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 3,
+        "MAXIMUM" : 4
+      },
+      "217354" : {
+        "PROPERTY" : 4,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "217355" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 4,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "217356" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "217357" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "217358" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217359" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "217360" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "MAXIMUM" : 2
+      },
+      "217361" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "217362" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "217888" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "217889" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217890" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "217891" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "217892" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "POPULATION" : 4,
+        "MAXIMUM" : 4
+      },
+      "217893" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 3,
+        "MAXIMUM" : 4
+      },
+      "217894" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "217895" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "217896" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "217897" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 4,
+        "MAXIMUM" : 4
+      },
+      "217898" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "217899" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "217900" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 4
+      },
+      "217901" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "217902" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217903" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "218428" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218429" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218431" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 2
+      },
+      "218432" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "POPULATION" : 3,
+        "MAXIMUM" : 4
+      },
+      "218433" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "POPULATION" : 3,
+        "MAXIMUM" : 4
+      },
+      "218434" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "218435" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "218436" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "218437" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "218438" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "218439" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "218440" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "218441" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 4
+      },
+      "218442" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218444" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218968" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "218970" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "218971" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218972" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218973" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 4,
+        "MAXIMUM" : 4
+      },
+      "218974" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "218975" : {
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 3,
+        "MAXIMUM" : 4
+      },
+      "218976" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "218977" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "218978" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218979" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218980" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218981" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "218983" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 4
+      },
+      "218984" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "219511" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "219512" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "219513" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "219514" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "219515" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "219516" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "219517" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "219518" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "219519" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "219520" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "219521" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "219523" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "219524" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "220051" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "220052" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "220053" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "220054" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "220055" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 3,
+        "POPULATION" : 3,
+        "MAXIMUM" : 4
+      },
+      "220056" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "220057" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 4,
+        "MAXIMUM" : 4
+      },
+      "220058" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "220059" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 2
+      },
+      "220060" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 2
+      },
+      "220062" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220591" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "220592" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "220593" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220594" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "220595" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 4,
+        "MAXIMUM" : 4
+      },
+      "220596" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "220597" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "220598" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "220599" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220600" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "220601" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220604" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221132" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221133" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "221134" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "MAXIMUM" : 3
+      },
+      "221135" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221136" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "POPULATION" : 4,
+        "MAXIMUM" : 4
+      },
+      "221137" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221138" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221139" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "221140" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221141" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "221143" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221144" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 4,
+        "MAXIMUM" : 4
+      },
+      "221672" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "221673" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "221674" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "221675" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "221676" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221677" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221678" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "221679" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 4
+      },
+      "221680" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "221681" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "221682" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "221683" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221684" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221685" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221686" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "222214" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222215" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "222216" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222217" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "222218" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "222219" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "222220" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222221" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "222222" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 3,
+        "POPULATION" : 3,
+        "MAXIMUM" : 3
+      },
+      "222223" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "222224" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "222225" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 3
+      },
+      "222754" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "222755" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "222756" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222757" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "222758" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "222759" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "222760" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222761" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "222762" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "222763" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "222764" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "222765" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223294" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223295" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223296" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223297" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "223298" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "223299" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223300" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223301" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "223302" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "223303" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223304" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223305" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "223834" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223835" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "223836" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "223837" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223838" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223839" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223840" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223841" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "223842" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223843" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223844" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224375" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224377" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "224378" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "224379" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "224380" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224381" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "224382" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224383" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224384" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "224386" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "224387" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "224388" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "224916" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "224917" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224918" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224919" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "224920" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "224921" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 3,
+        "MAXIMUM" : 3
+      },
+      "224922" : {
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "224923" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "224924" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "224926" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "224927" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "225457" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "225459" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "225460" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "225461" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "225462" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "225463" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "225464" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "225465" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "225466" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "225467" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "225468" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 2
+      },
+      "226003" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "226004" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 4,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "226005" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "226006" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "226007" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "226008" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 2
+      },
+      "226010" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "226045" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 4
+      },
+      "226543" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "226544" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "226545" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "226546" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "226547" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "226548" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "226549" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "226550" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "226584" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "227083" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "227084" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "227085" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "227086" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "227087" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "227088" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "227089" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "227622" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "227623" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "227624" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "227625" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "227626" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "227627" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "227628" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "227629" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "227630" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "227631" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "228159" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "228161" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "228162" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "228164" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 3,
+        "MAXIMUM" : 3
+      },
+      "228167" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "228168" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "228171" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "228172" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "228707" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "228708" : {
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "228709" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "228710" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "229247" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "229248" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "229249" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "229250" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "229251" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "229252" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "229288" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 2
+      },
+      "229289" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 3
+      },
+      "229290" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "229789" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "229790" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "230330" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "230331" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "230333" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "230871" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "230872" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "230873" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "230874" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "231412" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "231414" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      }
+    },
+    "2018-05-27T19:00Z" : {
+      "164818" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "165356" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "165895" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "165897" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "166433" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "166436" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "166437" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "167511" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "168603" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "170221" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "170229" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "170231" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "171843" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "173469" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "173496" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "173498" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "174014" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "174017" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "174019" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "174553" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "174559" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "174560" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "175094" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "175099" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "175633" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "175634" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "176172" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "176715" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "176717" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "176718" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "176719" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "176723" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "176724" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "177255" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "177256" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "177257" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "177262" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "177797" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "177800" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "177818" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "178335" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "178336" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "178337" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "178338" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "178340" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "178367" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "178370" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "178878" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "178907" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "179421" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "179450" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "179961" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "179962" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "179977" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "180502" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "180518" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "180525" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "180527" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "180532" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "181066" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "181070" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "181603" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "181606" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "181610" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "182148" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "182150" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "182157" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "182159" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "182160" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "182687" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "183776" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "183782" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "184315" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "184856" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "184865" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "184871" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "185379" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "185391" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "185392" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "185936" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "185942" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "186476" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "186482" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "186995" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "187031" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "187568" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "187574" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "188108" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "188113" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "188638" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "189191" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "189192" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "189727" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "189735" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "189736" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "190264" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "190266" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "190802" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "190803" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "190807" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "191348" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "191881" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "191898" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192423" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192427" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "192428" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "192431" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "192435" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192439" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "192966" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "192973" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "192974" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192976" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "192977" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "192979" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192980" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "192981" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192983" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "192986" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "193505" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "193514" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "193521" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "193524" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "193528" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 3
+      },
+      "195143" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "195144" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "195148" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "195676" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "195680" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "195682" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "195688" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "196226" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "197836" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "198375" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "204376" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "205453" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "208149" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "208688" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "208689" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "210319" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "211935" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "212497" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "212498" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "213571" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "213572" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "214104" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "214106" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "214107" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "214111" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "214112" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "214118" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "214644" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "214646" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "214647" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "214648" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "214649" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "214650" : {
+        "PROPERTY" : 3,
+        "MAXIMUM" : 3
+      },
+      "214651" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "214652" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "214653" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "214656" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "214657" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 4
+      },
+      "214658" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "214659" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 3
+      },
+      "214660" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "215186" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215187" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215189" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "215190" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "215191" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "215192" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215193" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "215194" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "215195" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "215196" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "215197" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "215198" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "215199" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "215200" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "215725" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215726" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215727" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215728" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215729" : {
+        "PROPERTY" : 3,
+        "MAXIMUM" : 3
+      },
+      "215730" : {
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 3
+      },
+      "215731" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "215732" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "215733" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "215734" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215735" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "215736" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "215737" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "215738" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "215739" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "215740" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "215741" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "215742" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "216265" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "216266" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216267" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "216268" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "216269" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "216270" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216271" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "216272" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216273" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "216274" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216275" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "216276" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "216277" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "216278" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "216279" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "216280" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "216281" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "216807" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "216808" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "216809" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "216810" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "216811" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 2
+      },
+      "216812" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "216813" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "216814" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "216815" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "216816" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "216817" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216818" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "216819" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 4
+      },
+      "216820" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "216821" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "216822" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "217347" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217348" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "217349" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "217350" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217351" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "MAXIMUM" : 2
+      },
+      "217352" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217353" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217354" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217355" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217356" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "217357" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "217358" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217359" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "217360" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "MAXIMUM" : 2
+      },
+      "217362" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217888" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "217889" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217890" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "217891" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "217892" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "217893" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "217894" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "217895" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "217896" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "217897" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "217898" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "217899" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "217900" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 4
+      },
+      "217901" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "217902" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218428" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218429" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218431" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218432" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218433" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "218434" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218435" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218436" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218437" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218438" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218439" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "218440" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "218441" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 4
+      },
+      "218442" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218968" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "218970" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "218971" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218972" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218973" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218974" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218975" : {
+        "PROPERTY" : 3,
+        "MAXIMUM" : 3
+      },
+      "218976" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "218977" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218978" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218979" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218980" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "218981" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "218984" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "219511" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "219512" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "219513" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "219514" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "219515" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "219516" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "219517" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "219518" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "219519" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "219520" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "219521" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "219523" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "219524" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "220051" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "220052" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "220053" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "220054" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "220055" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "MAXIMUM" : 3
+      },
+      "220056" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220057" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "220058" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "220059" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 2
+      },
+      "220060" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 2
+      },
+      "220062" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220591" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "220592" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "220593" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220594" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "220595" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 4,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "220596" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220597" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220598" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220599" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220600" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "220601" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "220604" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221131" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "221132" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221133" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "221134" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "MAXIMUM" : 3
+      },
+      "221135" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221136" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "221137" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221138" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221139" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "221140" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221143" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221144" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221672" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "221673" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "221674" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "221675" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "221676" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221677" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221678" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "221679" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 4
+      },
+      "221680" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "221681" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "221682" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "221683" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "222214" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222215" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "222216" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222217" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "222218" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "222219" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "222220" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222221" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "222222" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 3,
+        "POPULATION" : 3,
+        "MAXIMUM" : 3
+      },
+      "222223" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "222224" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "222754" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "222755" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "222756" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222757" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "222758" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 4,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 4
+      },
+      "222759" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "222760" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222762" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "222763" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222764" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "222765" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223294" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223295" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223296" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223297" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "223298" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "223299" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223300" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223301" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "223302" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "223303" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223304" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223305" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "223306" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "223307" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223308" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223834" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223835" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "223836" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "223837" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223838" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223839" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223840" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223841" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "223842" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223843" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223844" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "223847" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223848" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "224375" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224377" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "224378" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "224379" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "224380" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224381" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "224382" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224383" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224384" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "224386" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "224387" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "224388" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "224916" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "224917" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224918" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "224919" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "224920" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "224921" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 3,
+        "MAXIMUM" : 3
+      },
+      "224922" : {
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "224923" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "224924" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "224926" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "224927" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "225457" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "225459" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "225460" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "225461" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "225462" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "225463" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "225464" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "225465" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "225466" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "225467" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "225468" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 2
+      },
+      "226003" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "226004" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "226005" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "226006" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "226007" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "226008" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 2
+      },
+      "226010" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "226543" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "226545" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "226546" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "226548" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "226549" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "226550" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "227083" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "227088" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "227089" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "227627" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "227629" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "227630" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "227631" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "228167" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "228168" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "228171" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "228172" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "228710" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "229249" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "229250" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "229251" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "229789" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "230330" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "230331" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "230333" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      }
+    },
+    "2018-05-27T20:00Z" : {
+      "164818" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "165356" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "165897" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "166025" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "166031" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "166433" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "167511" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "168196" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "168736" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "169271" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "169273" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "169274" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "169275" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "169276" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "169813" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 4
+      },
+      "169814" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "170221" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "170353" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "170355" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "170893" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "171972" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "173496" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "173497" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "173498" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 4
+      },
+      "174037" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "174039" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "174040" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "174045" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "174577" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "175120" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "176743" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "177278" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "177818" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "178367" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "178370" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "178907" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "179447" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "179450" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "179977" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "180518" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "180525" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "180527" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "180532" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "181066" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "181070" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "181603" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "181606" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "181610" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "182148" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "182150" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "182157" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "182159" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "182160" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "182687" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "183776" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "184865" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "185391" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "185392" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "185942" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "187574" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "188113" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "189735" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "197881" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "203290" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "204369" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "204376" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "204911" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "205453" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "216806" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "218968" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "220052" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "220053" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220054" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "220056" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "220591" : {
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "220593" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "220594" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "220596" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "221133" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221134" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "221135" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "221136" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "221137" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "221139" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221140" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221673" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "221674" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "221677" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "221678" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "221679" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "221681" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "221682" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "222215" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "222216" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "222217" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "222218" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "222222" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "222223" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "222755" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "222756" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "222757" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "222758" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 4
+      },
+      "222762" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222763" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "222764" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "223302" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "223303" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "223839" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "223840" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "223842" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "223844" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      }
+    },
+    "2018-05-27T21:00Z" : {
+      "162223" : {
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 2
+      },
+      "162756" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "162762" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "162763" : {
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 2
+      },
+      "162772" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "163295" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "163302" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "163310" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "163833" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "163834" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "163837" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "163848" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "163849" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "163850" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "163851" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "MAXIMUM" : 3
+      },
+      "163852" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "163853" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "164373" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "164374" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "MAXIMUM" : 2
+      },
+      "164377" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "164387" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "164388" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "164389" : {
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "164390" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 3,
+        "MAXIMUM" : 3
+      },
+      "164391" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "164392" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "164393" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "164397" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "164929" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "164930" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 3
+      },
+      "164931" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "164932" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "164933" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "164934" : {
+        "PROPERTY" : 1,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 1
+      },
+      "164939" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "165469" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "165470" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "165472" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "165473" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "165474" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "165478" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "166025" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "166026" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "166031" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "166559" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "167639" : {
+        "TRANSPORT" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 3
+      },
+      "167640" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "167641" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "168179" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "168180" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "168181" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "168186" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 4
+      },
+      "168196" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "168720" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 2
+      },
+      "168721" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "168722" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "168736" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "169271" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "169273" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "169274" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "169275" : {
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "169276" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "169813" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 4
+      },
+      "169814" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "170353" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "170355" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "170893" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "171972" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "173496" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "173497" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 4
+      },
+      "173498" : {
+        "TRANSPORT" : 4,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 4
+      },
+      "174039" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "174040" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "174045" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "197881" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "203290" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 1
+      },
+      "204369" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "204376" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "204911" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "205453" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "216806" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      }
+    },
+    "2018-05-27T22:00Z" : {
+      "162223" : {
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 2
+      },
+      "162752" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "162756" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "162762" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "162763" : {
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 2
+      },
+      "162772" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "163295" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "163302" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "163310" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "163833" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "163834" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "163836" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 3
+      },
+      "163837" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "163848" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "163849" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "163850" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "163851" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "MAXIMUM" : 3
+      },
+      "163852" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "163853" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "164373" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "164374" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "KEY_INFRASTRUCTURE" : 2,
+        "MAXIMUM" : 2
+      },
+      "164377" : {
+        "TRANSPORT" : 1,
+        "MAXIMUM" : 1
+      },
+      "164387" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      },
+      "164388" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "164389" : {
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "164390" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 2,
+        "POPULATION" : 3,
+        "MAXIMUM" : 3
+      },
+      "164391" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "164392" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 2
+      },
+      "164393" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "164397" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "164929" : {
+        "TRANSPORT" : 1,
+        "PROPERTY" : 3,
+        "POPULATION" : 2,
+        "MAXIMUM" : 3
+      },
+      "164930" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 3,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 3
+      },
+      "164931" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "164932" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "164933" : {
+        "PROPERTY" : 2,
+        "MAXIMUM" : 2
+      },
+      "164934" : {
+        "PROPERTY" : 1,
+        "KEY_INFRASTRUCTURE" : 1,
+        "MAXIMUM" : 1
+      },
+      "164939" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "165469" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "MAXIMUM" : 3
+      },
+      "165470" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "165472" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "165473" : {
+        "TRANSPORT" : 3,
+        "PROPERTY" : 2,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "165474" : {
+        "TRANSPORT" : 2,
+        "PROPERTY" : 1,
+        "MAXIMUM" : 2
+      },
+      "165478" : {
+        "PROPERTY" : 3,
+        "POPULATION" : 1,
+        "MAXIMUM" : 3
+      },
+      "166559" : {
+        "TRANSPORT" : 4,
+        "MAXIMUM" : 4
+      },
+      "167639" : {
+        "TRANSPORT" : 3,
+        "MAXIMUM" : 3
+      },
+      "167641" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "168186" : {
+        "PROPERTY" : 1,
+        "MAXIMUM" : 1
+      },
+      "197881" : {
+        "TRANSPORT" : 2,
+        "MAXIMUM" : 2
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-package uk.gov.metoffice.hello.outtray;
+package uk.gov.metoffice.hello.domain.messages;
 
 /**
  * {A thing} to {do something} for {another thing}
@@ -6,5 +6,5 @@ package uk.gov.metoffice.hello.outtray;
  * -- and also {this}
  */
 // TODO fill in Javadoc
-public class UnitOutput {
+public class EnsembleSqKmImpacts {
 }

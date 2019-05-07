@@ -16,7 +16,7 @@ public enum ImpactLevel {
     NONE(0),
     MINIMAL(1),
     MINOR(2),
-    MAJOR(3),
+    SIGNIFICANT(3),
     SEVERE(4);
 
     public static Map<Short, ImpactLevel> SHORT_IMPACT_LEVEL_MAP = new HashMap<>();

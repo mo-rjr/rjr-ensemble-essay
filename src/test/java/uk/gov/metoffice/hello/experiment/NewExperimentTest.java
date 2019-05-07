@@ -7,7 +7,7 @@ import uk.gov.metoffice.hello.domain.Ensemble;
 import uk.gov.metoffice.hello.domain.ImpactType;
 import uk.gov.metoffice.hello.domain.StormDuration;
 import uk.gov.metoffice.hello.domain.StormSeverity;
-import uk.gov.metoffice.hello.outtray.ValidBlocksReader;
+import uk.gov.metoffice.hello.explode.ValidBlocksReader;
 import uk.gov.metoffice.hello.domain.TimeLocationImpacts;
 import uk.gov.metoffice.hello.domain.TimeLocationStorms;
 import uk.gov.metoffice.hello.explode.impacts.ImpactCalculator;
@@ -31,7 +31,8 @@ public class NewExperimentTest {
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 
-    private static final String ZIP_FILE_NAME = "MO_G2G_NWP_NCENS_ENGWAL_201805271830_SWF_HIM";
+    private static final String ZIP_FILE_NAME = "MO_G2G_NWP_NCENS_ENGWAL_201805271630_SWF_HIM";
+//    private static final String ZIP_FILE_NAME = "MO_G2G_NWP_NCENS_ENGWAL_201805271830_SWF_HIM";
 //    private static final String ZIP_FILE_NAME = "MO_G2G_NWP_SRENS_ENGWAL_201805270830_SWF_HIM";
     private static final String DATA_ROOT = "C:\\Workarea\\swf-him-jm\\TestData\\BirminghamFloods20180527\\" + ZIP_FILE_NAME + "\\";
     private static final String ENSEMBLE_XML = "grids_ENS00%02d.xml";

@@ -1,4 +1,4 @@
-package uk.gov.metoffice.hello.gatekeeper;
+package uk.gov.metoffice.hello.area;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import uk.gov.metoffice.hello.domain.AdminArea;

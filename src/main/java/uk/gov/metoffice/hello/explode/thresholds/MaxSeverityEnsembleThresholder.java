@@ -11,7 +11,8 @@ import java.time.ZonedDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static uk.gov.metoffice.hello.outtray.Main.ROW_LENGTH;
+import static uk.gov.metoffice.hello.domain.BilConstants.ROW_LENGTH;
+
 
 /**
  * {A thing} to {do something} for {another thing}

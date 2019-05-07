@@ -17,7 +17,7 @@ public class TimestepUtils {
     private TimestepUtils() {}
 
     /**
-     * Method to work out whether it's worth calculating an accumulated value for this timesteap
+     * Method to work out whether it's worth calculating an accumulated value for this timestep
      * Some data is dropped from the beginning and end of each list of times in the data
      *
      * @param thisTimestepIndex where we are in the ordered list of times
