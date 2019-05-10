@@ -19,8 +19,8 @@ public class StormImpactLevelsProviderTest {
 //                blocksRequired);
 //
 //        // act
-//        StormImpactLevels result = testObject.getFor(StormDuration.ONE_HOUR, StormSeverity.THIRTY_YEARS);
-//        StormImpactLevels result1 = testObject.getFor(StormDuration.ONE_HOUR, StormSeverity.ONE_HUNDRED_YEARS);
+//        StormImpactLevels result = testObject.getFor(StormDuration.ONE_HOUR, StormReturnPeriod.THIRTY_YEARS);
+//        StormImpactLevels result1 = testObject.getFor(StormDuration.ONE_HOUR, StormReturnPeriod.ONE_HUNDRED_YEARS);
 //
 //        // assert
 //        assertNotNull(result);

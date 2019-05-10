@@ -18,26 +18,26 @@ public class ImplicationCalculatorTest {
 //        List<Integer> validBlocks = new ValidBlocksReader().readValidBlocks();
 //        StormImpactLevelsProvider stormImpactLevelsProvider = new StormImpactLevelsProvider(ROOT, validBlocks);
 //        ImpactCalculator testObject = new ImpactCalculator(stormImpactLevelsProvider);
-//        TreeMap<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> thresholdsExceeded = makeTheMap();
+//        TreeMap<ZonedDateTime, EnumMap<StormReturnPeriod, List<Integer>>> thresholdsExceeded = makeTheMap();
 ////        EnsembleExceedances ensembleExceedances = new EnsembleExceedances("testEnsemble",
 ////                thresholdsExceeded);
 //        EnsembleExceedances ensembleExceedances = readFrom("ensembleThresholderTestOutput.json");
 //
 //        // act
 //
-//        TreeMap<ZonedDateTime, EnumMap<StormSeverity, Map<Integer, EnumMap<ImpactType, Short>>>> result = testObject.calculateImpacts(ensembleExceedances, StormDuration.ONE_HOUR);
+//        TreeMap<ZonedDateTime, EnumMap<StormReturnPeriod, Map<Integer, EnumMap<ImpactType, Short>>>> result = testObject.calculateImpacts(ensembleExceedances, StormDuration.ONE_HOUR);
 //
 //        // assert
 //        assertNotNull(result);
 //    }
 //
-//    private TreeMap<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> makeTheMap() {
+//    private TreeMap<ZonedDateTime, EnumMap<StormReturnPeriod, List<Integer>>> makeTheMap() {
 //        List<Integer> someIntegers = Arrays.asList(160640,160644,161184,161185);
-//        EnumMap<StormSeverity, List<Integer>> severities = new EnumMap<>(StormSeverity.class);
-//        severities.put(StormSeverity.THIRTY_YEARS, someIntegers);
-//        severities.put(StormSeverity.ONE_HUNDRED_YEARS, someIntegers);
-//        severities.put(StormSeverity.ONE_THOUSAND_YEARS, someIntegers);
-//        TreeMap<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> output = new TreeMap<>();
+//        EnumMap<StormReturnPeriod, List<Integer>> severities = new EnumMap<>(StormReturnPeriod.class);
+//        severities.put(StormReturnPeriod.THIRTY_YEARS, someIntegers);
+//        severities.put(StormReturnPeriod.ONE_HUNDRED_YEARS, someIntegers);
+//        severities.put(StormReturnPeriod.ONE_THOUSAND_YEARS, someIntegers);
+//        TreeMap<ZonedDateTime, EnumMap<StormReturnPeriod, List<Integer>>> output = new TreeMap<>();
 //        output.put(ZonedDateTime.of(LocalDateTime.of(2019, Month.MAY, 1, 12, 0), ZoneId.of("UTC")), severities);
 //        return output;
 //    }

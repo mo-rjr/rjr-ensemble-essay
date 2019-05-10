@@ -1,7 +1,7 @@
 package uk.gov.metoffice.hello.explode.thresholds;
 
 import uk.gov.metoffice.hello.domain.StormDuration;
-import uk.gov.metoffice.hello.domain.StormSeverity;
+import uk.gov.metoffice.hello.domain.StormReturnPeriod;
 import uk.gov.metoffice.hello.explode.AdvancingBilFileReader;
 
 import java.io.IOException;
@@ -44,14 +44,14 @@ public class AccumulationThresholdProvider {
     private AccumulationThresholder createAccumulationThresholderFor(StormDuration stormDuration) {
         AccumulationThresholder accumulationThresholder = new AccumulationThresholder(stormDuration);
 
-        for (StormSeverity stormSeverity : StormSeverity.values()) {
-            String fileName = thresholdFolderRoot + fileNameFor(stormDuration, stormSeverity);
+        for (StormReturnPeriod stormReturnPeriod : StormReturnPeriod.values()) {
+            String fileName = thresholdFolderRoot + fileNameFor(stormDuration, stormReturnPeriod);
             try (AdvancingBilFileReader<Float> bilFileReader = AdvancingBilFileReader.forFloats(fileName, ROW_LENGTH)) {
                 Map<Integer, Float> thresholdValues = new HashMap<>();
                 for (Integer block : validBlocks) {
                     thresholdValues.put(block, bilFileReader.readNext(block));
                 }
-                accumulationThresholder.put(stormSeverity, thresholdValues);
+                accumulationThresholder.put(stormReturnPeriod, thresholdValues);
             } catch (IOException e) {
                 throw new UncheckedIOException(e);
                 // todo think about this pretty hard
@@ -60,9 +60,9 @@ public class AccumulationThresholdProvider {
         return accumulationThresholder;
     }
 
-    private String fileNameFor(StormDuration stormDuration, StormSeverity stormSeverity) {
+    private String fileNameFor(StormDuration stormDuration, StormReturnPeriod stormReturnPeriod) {
         String durationHours = Integer.toString(stormDuration.getHours());
-        String stormYears = Integer.toString(stormSeverity.getYears());
+        String stormYears = Integer.toString(stormReturnPeriod.getYears());
         return FILE_TEMPLATE.replace(DURATION_HOURS_KEY, durationHours).replace(SEVERITY_YEARS_KEY, stormYears);
     }
 }

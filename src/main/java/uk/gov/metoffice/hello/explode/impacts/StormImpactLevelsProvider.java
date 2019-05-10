@@ -2,7 +2,7 @@ package uk.gov.metoffice.hello.explode.impacts;
 
 import uk.gov.metoffice.hello.domain.ImpactType;
 import uk.gov.metoffice.hello.domain.StormDuration;
-import uk.gov.metoffice.hello.domain.StormSeverity;
+import uk.gov.metoffice.hello.domain.StormReturnPeriod;
 import uk.gov.metoffice.hello.explode.AdvancingBilFileReader;
 
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static uk.gov.metoffice.hello.outtray.Main.ROW_LENGTH;
+import static uk.gov.metoffice.hello.domain.BilConstants.ROW_LENGTH;
 
 /**
  * {A thing} to {do something} for {another thing}
@@ -49,15 +49,15 @@ public class StormImpactLevelsProvider {
 
     private StormImpactLevels createImpactLevelsFor(StormDuration stormDuration) {
         StormImpactLevels stormImpactLevels = new StormImpactLevels(stormDuration);
-        for (StormSeverity stormSeverity : StormSeverity.values()) {
+        for (StormReturnPeriod stormReturnPeriod : StormReturnPeriod.values()) {
             for (ImpactType impact : ImpactType.values()) {
-                String fileName = thresholdFolderRoot + fileNameFor(stormDuration, stormSeverity, impact);
+                String fileName = thresholdFolderRoot + fileNameFor(stormDuration, stormReturnPeriod, impact);
                 try (AdvancingBilFileReader<Short> bilFileReader = AdvancingBilFileReader.forShorts(fileName, ROW_LENGTH)) {
                     Map<Integer, Short> thresholdValues = new HashMap<>();
                     for (Integer block : validBlocks) {
                         thresholdValues.put(block, bilFileReader.readNext(block));
                     }
-                    stormImpactLevels.put(stormSeverity, impact, thresholdValues);
+                    stormImpactLevels.put(stormReturnPeriod, impact, thresholdValues);
                 } catch (IOException e) {
                     throw new UncheckedIOException(e);
                     // todo think about this pretty hard
@@ -67,10 +67,10 @@ public class StormImpactLevelsProvider {
         return stormImpactLevels;
     }
 
-    private String fileNameFor(StormDuration stormDuration, StormSeverity stormSeverity, ImpactType impact) {
+    private String fileNameFor(StormDuration stormDuration, StormReturnPeriod stormReturnPeriod, ImpactType impact) {
         String impactFilePart = impact.getFileNamePart();
         String durationHours = Integer.toString(stormDuration.getHours());
-        String stormYears = Integer.toString(stormSeverity.getYears());
+        String stormYears = Integer.toString(stormReturnPeriod.getYears());
         return FILE_TEMPLATE
                 .replace(IMPACT_FILE_KEY, impactFilePart)
                 .replace(DURATION_HOURS_KEY, durationHours)

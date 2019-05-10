@@ -2,7 +2,7 @@ package uk.gov.metoffice.hello.explode.thresholds;
 
 import uk.gov.metoffice.hello.domain.Ensemble;
 import uk.gov.metoffice.hello.domain.StormDuration;
-import uk.gov.metoffice.hello.domain.StormSeverity;
+import uk.gov.metoffice.hello.domain.StormReturnPeriod;
 import uk.gov.metoffice.hello.explode.AdvancingBilFileReader;
 
 import java.io.IOException;
@@ -15,22 +15,24 @@ import static uk.gov.metoffice.hello.domain.BilConstants.ROW_LENGTH;
 
 
 /**
+ *
+ * Intensity = Return Period
  * {A thing} to {do something} for {another thing}
  * -- for example, {this}
  * -- and also {this}
  */
 // TODO fill in Javadoc
-public class MaxSeverityEnsembleThresholder {
+public class MaxIntensityEnsembleThresholder {
 
     private final AccumulationThresholdProvider accumulationThresholdProvider;
 
-    public MaxSeverityEnsembleThresholder(AccumulationThresholdProvider accumulationThresholdProvider) {
+    public MaxIntensityEnsembleThresholder(AccumulationThresholdProvider accumulationThresholdProvider) {
         this.accumulationThresholdProvider = accumulationThresholdProvider;
     }
 
-    public TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> calculateExceededBlocks(Ensemble ensemble,
-                                                                                           StormDuration stormDuration,
-                                                                                           List<Integer> sortedValidBlocks) {
+    public TreeMap<ZonedDateTime, TreeMap<Integer, StormReturnPeriod>> calculateExceededBlocks(Ensemble ensemble,
+                                                                                               StormDuration stormDuration,
+                                                                                               List<Integer> sortedValidBlocks) {
         Map<ZonedDateTime, String> filesForTimeSteps = ensemble.getRunoffFilePerTimestep();
         AccumulationThresholder accumulationThresholder = accumulationThresholdProvider.getFor(stormDuration);
 
@@ -44,7 +46,7 @@ public class MaxSeverityEnsembleThresholder {
         Map<ZonedDateTime, TreeMap<Integer, Float>> accumulationsMap = sortedTimeSteps.stream()
                 .collect(Collectors.toMap(zdt -> zdt, zdt -> new TreeMap<>()));
         /// this is to store the hourly output as it's created
-        TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> hourlyStormSeverities = sortedTimeSteps.stream()
+        TreeMap<ZonedDateTime, TreeMap<Integer, StormReturnPeriod>> hourlyStormSeverities = sortedTimeSteps.stream()
                 .skip(accumulationSteps - 1) // we drop timesteps which don't have enough accumulationSteps in their sum
                 .filter(TimestepUtils::onTheHour)
                 .collect(Collectors.toMap(zdt -> zdt, x -> new TreeMap<>(),
@@ -84,11 +86,11 @@ public class MaxSeverityEnsembleThresholder {
             // work out whether to increase the worst storm-threshold crossed for any hourly values to which this timestep pertains
             if (TimestepUtils.timestepBelongsInAccumulations(currentTimeIndex, accumulationSteps, lastHourlyTimezoneIndex)) {
                 for (ZonedDateTime hourlyTimestep : TimestepUtils.relevantHourlyTimesteps(currentZonedDateTime, hourlyStormSeverities)) {
-                    TreeMap<Integer, StormSeverity> blocksWithSeverities = hourlyStormSeverities.get(hourlyTimestep);
+                    TreeMap<Integer, StormReturnPeriod> blocksWithSeverities = hourlyStormSeverities.get(hourlyTimestep);
                     for (Integer block : sortedValidBlocks) {
                         float rawValue = accumulationsMap.get(currentZonedDateTime).get(block);
-                        Optional<StormSeverity> currentMaxSeverity = Optional.ofNullable(blocksWithSeverities.get(block));
-                        Optional<StormSeverity> newMaxSeverity = accumulationThresholder.increasedSeverityThresholdCrossed(block, rawValue, currentMaxSeverity);
+                        Optional<StormReturnPeriod> currentMaxSeverity = Optional.ofNullable(blocksWithSeverities.get(block));
+                        Optional<StormReturnPeriod> newMaxSeverity = accumulationThresholder.increasedSeverityThresholdCrossed(block, rawValue, currentMaxSeverity);
                         newMaxSeverity.ifPresent(stormSeverity -> blocksWithSeverities.put(block, stormSeverity));
                     }
                 }

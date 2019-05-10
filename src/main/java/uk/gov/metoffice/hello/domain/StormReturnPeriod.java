@@ -6,7 +6,7 @@ package uk.gov.metoffice.hello.domain;
  * -- and also {this}
  */
 // TODO fill in Javadoc
-public enum StormSeverity {
+public enum StormReturnPeriod {
 
     ONE_THOUSAND_YEARS(1000),
     ONE_HUNDRED_YEARS(100),
@@ -14,7 +14,7 @@ public enum StormSeverity {
 
     int years;
 
-    StormSeverity(int years) {
+    StormReturnPeriod(int years) {
         this.years = years;
     }
 
@@ -22,7 +22,7 @@ public enum StormSeverity {
         return years;
     }
 
-    public boolean moreSevere(StormSeverity stormSeverity) {
-        return getYears() > stormSeverity.getYears();
+    public boolean moreSevere(StormReturnPeriod stormReturnPeriod) {
+        return getYears() > stormReturnPeriod.getYears();
     }
 }

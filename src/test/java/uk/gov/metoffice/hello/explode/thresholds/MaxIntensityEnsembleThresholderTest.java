@@ -5,7 +5,7 @@ import org.junit.Test;
 import uk.gov.metoffice.hello.gatekeeper.EnsembleDataReader;
 import uk.gov.metoffice.hello.domain.Ensemble;
 import uk.gov.metoffice.hello.domain.StormDuration;
-import uk.gov.metoffice.hello.domain.StormSeverity;
+import uk.gov.metoffice.hello.domain.StormReturnPeriod;
 import uk.gov.metoffice.hello.explode.ValidBlocksReader;
 import uk.gov.metoffice.hello.domain.TimeLocationStorms;
 
@@ -24,7 +24,7 @@ import static org.junit.Assert.assertNotNull;
  * -- and also {this}
  */
 // TODO fill in Javadoc
-public class MaxSeverityEnsembleThresholderTest {
+public class MaxIntensityEnsembleThresholderTest {
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 
@@ -52,10 +52,10 @@ public class MaxSeverityEnsembleThresholderTest {
         int expectedTimestepsInOutput = 6;
         List<Integer> validBlocks = new ValidBlocksReader().readValidBlocks();
         AccumulationThresholdProvider accumulationThresholdProvider = new AccumulationThresholdProvider(THRESHOLD_DATA_ROOT, validBlocks);
-        MaxSeverityEnsembleThresholder testObject = new MaxSeverityEnsembleThresholder(accumulationThresholdProvider);
+        MaxIntensityEnsembleThresholder testObject = new MaxIntensityEnsembleThresholder(accumulationThresholdProvider);
 
         // act
-        TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> result = testObject.calculateExceededBlocks(ensemble,
+        TreeMap<ZonedDateTime, TreeMap<Integer, StormReturnPeriod>> result = testObject.calculateExceededBlocks(ensemble,
                 stormDuration, validBlocks);
 
         // assert

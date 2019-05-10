@@ -1,6 +1,6 @@
 package uk.gov.metoffice.hello.explode.thresholds;
 
-import uk.gov.metoffice.hello.domain.StormSeverity;
+import uk.gov.metoffice.hello.domain.StormReturnPeriod;
 
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
@@ -43,21 +43,21 @@ public class TimestepUtils {
      * not just 5.15, 5.30, 5.45, 6pm
      *
      * @param currentZonedDateTime  this current timestep, e.g. 5pm or 5.15
-     * @param hourlyStormSeverities the accumulating treemap, the keys of which are only the hourly timesteps, e.g. 5pm, 6pm
+     * @param hourlyStormReturnPeriods the accumulating treemap, the keys of which are only the hourly timesteps, e.g. 5pm, 6pm
      * @return all hourly timesteps to which this pertains
      * e.g. 5pm pertains to 5pm and 6pm,
      * 6.15 pertains to 7pm
      * and if the data only goes out to 8.45 then 8.30 pertains to no hourly timesteps
      */
     public static List<ZonedDateTime> relevantHourlyTimesteps(ZonedDateTime currentZonedDateTime,
-                                                        TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> hourlyStormSeverities) {
+                                                        TreeMap<ZonedDateTime, TreeMap<Integer, StormReturnPeriod>> hourlyStormReturnPeriods) {
         List<ZonedDateTime> relevantHourlyTimesteps = new ArrayList<>();
 
         if (onTheHour(currentZonedDateTime)) {
             relevantHourlyTimesteps.add(currentZonedDateTime);
         }
 
-        ZonedDateTime nextHourlyValue = hourlyStormSeverities.higherKey(currentZonedDateTime);
+        ZonedDateTime nextHourlyValue = hourlyStormReturnPeriods.higherKey(currentZonedDateTime);
         if (nextHourlyValue != null) {
             relevantHourlyTimesteps.add(nextHourlyValue);
         }

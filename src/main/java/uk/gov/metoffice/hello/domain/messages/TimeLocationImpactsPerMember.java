@@ -1,4 +1,4 @@
-package uk.gov.metoffice.hello.domain;
+package uk.gov.metoffice.hello.domain.messages;
 
 import uk.gov.metoffice.hello.domain.ImpactType;
 
@@ -12,18 +12,18 @@ import java.util.TreeMap;
  * -- and also {this}
  */
 // TODO fill in Javadoc
-public class TimeLocationImpacts {
-    private String ensemble;
+public class TimeLocationImpactsPerMember {
+    private String ensembleMember;
 
     private TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> impacts;
 
-    public TimeLocationImpacts(String ensemble, TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> impacts) {
-        this.ensemble = ensemble;
+    public TimeLocationImpactsPerMember(String ensembleMember, TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> impacts) {
+        this.ensembleMember = ensembleMember;
         this.impacts = impacts;
     }
 
-    public String getEnsemble() {
-        return ensemble;
+    public String getEnsembleMember() {
+        return ensembleMember;
     }
 
     public TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> getImpacts() {

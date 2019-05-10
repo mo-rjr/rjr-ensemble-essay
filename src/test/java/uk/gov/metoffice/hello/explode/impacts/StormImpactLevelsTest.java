@@ -16,7 +16,7 @@ public class StormImpactLevelsTest {
 //
 //        List<Integer> blocksRequired = Arrays.asList(160640,160644,161184,161185);
 //        StormImpactLevels testObject = new StormImpactLevelsProvider(IMPACT_DATA_ROOT,
-//                blocksRequired).getFor(StormDuration.ONE_HOUR, StormSeverity.THIRTY_YEARS);
+//                blocksRequired).getFor(StormDuration.ONE_HOUR, StormReturnPeriod.THIRTY_YEARS);
 //
 //        // act
 //        Map<Integer, EnumMap<ImpactType, Short>> result = testObject.getValuesPerImpactType(blocksRequired);

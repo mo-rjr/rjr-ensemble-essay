@@ -22,7 +22,7 @@ public class AccumulationThresholdProviderTest {
 //        AccumulationThresholdProvider testObject = new AccumulationThresholdProvider(THRESHOLD_DATA_ROOT, validBlocks);
 //
 //        // act
-//        AccumulationThresholder result = testObject.getFor(StormDuration.ONE_HOUR, StormSeverity.THIRTY_YEARS);
+//        AccumulationThresholder result = testObject.getFor(StormDuration.ONE_HOUR, StormReturnPeriod.THIRTY_YEARS);
 //
 //        // assert
 //        assertNotNull(result);

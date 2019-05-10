@@ -6,14 +6,14 @@ import uk.gov.metoffice.hello.gatekeeper.EnsembleDataReader;
 import uk.gov.metoffice.hello.domain.Ensemble;
 import uk.gov.metoffice.hello.domain.ImpactType;
 import uk.gov.metoffice.hello.domain.StormDuration;
-import uk.gov.metoffice.hello.domain.StormSeverity;
+import uk.gov.metoffice.hello.domain.StormReturnPeriod;
 import uk.gov.metoffice.hello.explode.ValidBlocksReader;
-import uk.gov.metoffice.hello.domain.TimeLocationImpacts;
+import uk.gov.metoffice.hello.domain.messages.TimeLocationImpactsPerMember;
 import uk.gov.metoffice.hello.domain.TimeLocationStorms;
 import uk.gov.metoffice.hello.explode.impacts.ImpactCalculator;
 import uk.gov.metoffice.hello.explode.impacts.StormImpactLevelsProvider;
 import uk.gov.metoffice.hello.explode.thresholds.AccumulationThresholdProvider;
-import uk.gov.metoffice.hello.explode.thresholds.MaxSeverityEnsembleThresholder;
+import uk.gov.metoffice.hello.explode.thresholds.MaxIntensityEnsembleThresholder;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -42,13 +42,13 @@ public class NewExperimentTest {
 
     @Test
     public void makeTestForAllEnsembles() throws IOException {
-        List<TimeLocationImpacts> timeLocationImpactsList = IntStream.range(0, 24)
+        List<TimeLocationImpactsPerMember> timeLocationImpactsPerMemberList = IntStream.range(0, 24)
                 .mapToObj(i -> String.format(ENSEMBLE_XML, i))
                 .map(this::calculateExceededBlocks)
                 .collect(Collectors.toList());
 
         try (PrintWriter printWriter = new PrintWriter("C:\\Workarea\\rjr-ensemble-essay\\src\\test\\resources\\timeLocationImpacts.json")) {
-            OBJECT_MAPPER.writerWithDefaultPrettyPrinter().writeValue(printWriter, timeLocationImpactsList);
+            OBJECT_MAPPER.writerWithDefaultPrettyPrinter().writeValue(printWriter, timeLocationImpactsPerMemberList);
         }
 
 //        ExperimentTestImpactsChecker impactsChecker = new ExperimentTestImpactsChecker(IMPACT_DATA_ROOT);
@@ -59,28 +59,28 @@ public class NewExperimentTest {
     @Test
     public void makeTestForOneEnsemble() throws IOException {
 
-        TimeLocationImpacts timeLocationImpacts = calculateExceededBlocks(String.format(ENSEMBLE_XML, 5));
+        TimeLocationImpactsPerMember timeLocationImpactsPerMember = calculateExceededBlocks(String.format(ENSEMBLE_XML, 5));
         //
-        assertNotNull(timeLocationImpacts);
+        assertNotNull(timeLocationImpactsPerMember);
 
         try (PrintWriter printWriter = new PrintWriter("C:\\Workarea\\rjr-ensemble-essay\\src\\test\\resources\\timeLocationImpacts5.json")) {
-            OBJECT_MAPPER.writerWithDefaultPrettyPrinter().writeValue(printWriter, timeLocationImpacts);
+            OBJECT_MAPPER.writerWithDefaultPrettyPrinter().writeValue(printWriter, timeLocationImpactsPerMember);
         }
     }
 
-    private TimeLocationImpacts calculateExceededBlocks(String ensembleXmlFileName) {
+    private TimeLocationImpactsPerMember calculateExceededBlocks(String ensembleXmlFileName) {
         // arrange
         System.out.println("*** " + ensembleXmlFileName);
         Ensemble ensemble = EnsembleDataReader.create().readFromXmlFile(ZIP_FILE_NAME, DATA_ROOT, ensembleXmlFileName);
         StormDuration stormDuration = StormDuration.ONE_HOUR;
         List<Integer> validBlocks = new ValidBlocksReader().readValidBlocks();
         AccumulationThresholdProvider accumulationThresholdProvider = new AccumulationThresholdProvider(THRESHOLD_DATA_ROOT, validBlocks);
-        MaxSeverityEnsembleThresholder maxSeverityEnsembleThresholder = new MaxSeverityEnsembleThresholder(accumulationThresholdProvider);
+        MaxIntensityEnsembleThresholder maxIntensityEnsembleThresholder = new MaxIntensityEnsembleThresholder(accumulationThresholdProvider);
         StormImpactLevelsProvider stormImpactLevelsProvider = new StormImpactLevelsProvider(IMPACT_DATA_ROOT, validBlocks);
         ImpactCalculator impactCalculator = new ImpactCalculator(stormImpactLevelsProvider);
 
         // act
-        TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> intermediaryResult = maxSeverityEnsembleThresholder.calculateExceededBlocks(ensemble,
+        TreeMap<ZonedDateTime, TreeMap<Integer, StormReturnPeriod>> intermediaryResult = maxIntensityEnsembleThresholder.calculateExceededBlocks(ensemble,
                 stormDuration, validBlocks);
         TimeLocationStorms timeLocationStorms = new TimeLocationStorms(ensembleXmlFileName, intermediaryResult);
         TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> result = impactCalculator.calculateImpacts(timeLocationStorms, stormDuration);
@@ -89,18 +89,18 @@ public class NewExperimentTest {
         assertNotNull(intermediaryResult);
         assertNotNull(result);
 
-        return new TimeLocationImpacts(ensembleXmlFileName, result);
+        return new TimeLocationImpactsPerMember(ensembleXmlFileName, result);
     }
 
 //    private void validate(EnsembleExceedances ensembleExceedances, int expectedTimestepsInOutput) {
 //        assertEquals(expectedTimestepsInOutput, ensembleExceedances.getThresholdsExceeded().size());
-//        assertHigherSeveritySubsetOfLower(ensembleExceedances, StormSeverity.ONE_THOUSAND_YEARS, StormSeverity.ONE_HUNDRED_YEARS);
-//        assertHigherSeveritySubsetOfLower(ensembleExceedances, StormSeverity.ONE_HUNDRED_YEARS, StormSeverity.THIRTY_YEARS);
+//        assertHigherSeveritySubsetOfLower(ensembleExceedances, StormReturnPeriod.ONE_THOUSAND_YEARS, StormReturnPeriod.ONE_HUNDRED_YEARS);
+//        assertHigherSeveritySubsetOfLower(ensembleExceedances, StormReturnPeriod.ONE_HUNDRED_YEARS, StormReturnPeriod.THIRTY_YEARS);
 //    }
 //
-//    private void assertHigherSeveritySubsetOfLower(EnsembleExceedances ensembleExceedances, StormSeverity higher, StormSeverity lower) {
-//        for (Map.Entry<ZonedDateTime, EnumMap<StormSeverity, List<Integer>>> entry : ensembleExceedances.getThresholdsExceeded().entrySet()) {
-//            EnumMap<StormSeverity, List<Integer>> exceededMap = entry.getShortValue();
+//    private void assertHigherSeveritySubsetOfLower(EnsembleExceedances ensembleExceedances, StormReturnPeriod higher, StormReturnPeriod lower) {
+//        for (Map.Entry<ZonedDateTime, EnumMap<StormReturnPeriod, List<Integer>>> entry : ensembleExceedances.getThresholdsExceeded().entrySet()) {
+//            EnumMap<StormReturnPeriod, List<Integer>> exceededMap = entry.getShortValue();
 //            List<Integer> lowerThresholds = exceededMap.get(lower);
 //            List<Integer> higherThresholds = exceededMap.get(higher);
 //            assertFalse(lowerThresholds == null && higherThresholds != null);

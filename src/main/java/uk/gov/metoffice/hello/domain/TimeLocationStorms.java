@@ -1,7 +1,5 @@
 package uk.gov.metoffice.hello.domain;
 
-import uk.gov.metoffice.hello.domain.StormSeverity;
-
 import java.time.ZonedDateTime;
 import java.util.TreeMap;
 
@@ -15,9 +13,9 @@ public class TimeLocationStorms {
 
     private final String ensemble;
 
-    private final TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> storms;
+    private final TreeMap<ZonedDateTime, TreeMap<Integer, StormReturnPeriod>> storms;
 
-    public TimeLocationStorms(String ensemble, TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> storms) {
+    public TimeLocationStorms(String ensemble, TreeMap<ZonedDateTime, TreeMap<Integer, StormReturnPeriod>> storms) {
         this.ensemble = ensemble;
         this.storms = storms;
     }
@@ -26,7 +24,7 @@ public class TimeLocationStorms {
         return ensemble;
     }
 
-    public TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> getStorms() {
+    public TreeMap<ZonedDateTime, TreeMap<Integer, StormReturnPeriod>> getStorms() {
         return storms;
     }
 }

@@ -21,6 +21,7 @@ import java.util.function.Function;
 public class AdvancingBilFileReader<T extends Number> implements Closeable {
 
     // constructor parameters
+    private final IOFunction<String, InputStream> inputStreamProvider;
     private final String fileReference;
     private final Function<ByteBuffer, T> valueReader;
     private final int rowInBytes;
@@ -36,14 +37,18 @@ public class AdvancingBilFileReader<T extends Number> implements Closeable {
 
 
     public static AdvancingBilFileReader<Float> forFloats(String fileReference, int rowLength) {
-        return new AdvancingBilFileReader<>(fileReference, rowLength, ByteBuffer::getFloat, Float.BYTES);
+        return new AdvancingBilFileReader<>(FileInputStream::new, fileReference,
+                rowLength, ByteBuffer::getFloat, Float.BYTES);
     }
 
     public static AdvancingBilFileReader<Short> forShorts(String fileReference, int rowLength) {
-        return new AdvancingBilFileReader<>(fileReference, rowLength, ByteBuffer::getShort, Short.BYTES);
+        return new AdvancingBilFileReader<>(FileInputStream::new, fileReference,
+                rowLength, ByteBuffer::getShort, Short.BYTES);
     }
 
-    private AdvancingBilFileReader(String fileReference, int rowLength, Function<ByteBuffer, T> valueReader, int bytesPerValue) {
+    private AdvancingBilFileReader(IOFunction<String, InputStream> inputStreamProvider, String fileReference,
+                                   int rowLength, Function<ByteBuffer, T> valueReader, int bytesPerValue) {
+        this.inputStreamProvider = inputStreamProvider;
         this.valueReader = valueReader;
         this.fileReference = fileReference;
         this.rowInBytes = rowLength * bytesPerValue;
@@ -80,7 +85,7 @@ public class AdvancingBilFileReader<T extends Number> implements Closeable {
 
     private void open() throws FileNotFoundException, IOException {
         byteRow = new byte[rowInBytes];
-        bufferedInputStream = new BufferedInputStream(new FileInputStream(fileReference));
+        bufferedInputStream = new BufferedInputStream(inputStreamProvider.use(fileReference));
         bytesRead = bufferedInputStream.read(byteRow);
         if (bytesRead < 0) {
             throw new RuntimeException("Couldn't read any bytes from file " + fileReference);

@@ -2,7 +2,7 @@ package uk.gov.metoffice.hello.explode.impacts;
 
 import uk.gov.metoffice.hello.domain.ImpactType;
 import uk.gov.metoffice.hello.domain.StormDuration;
-import uk.gov.metoffice.hello.domain.StormSeverity;
+import uk.gov.metoffice.hello.domain.StormReturnPeriod;
 import uk.gov.metoffice.hello.domain.TimeLocationStorms;
 
 import java.time.ZonedDateTime;
@@ -26,23 +26,23 @@ public class ImpactCalculator {
     public TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> calculateImpacts(TimeLocationStorms timeLocationStorms,
                                                                                                                          StormDuration stormDuration) {
 
-        TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> allAffectedInTimeStep = timeLocationStorms.getStorms();
+        TreeMap<ZonedDateTime, TreeMap<Integer, StormReturnPeriod>> allAffectedInTimeStep = timeLocationStorms.getStorms();
         return applyImpactLevels(allAffectedInTimeStep, stormDuration);
     }
 
     private TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> applyImpactLevels(
-            TreeMap<ZonedDateTime, TreeMap<Integer, StormSeverity>> allAffectedInTimeStep,
+            TreeMap<ZonedDateTime, TreeMap<Integer, StormReturnPeriod>> allAffectedInTimeStep,
             StormDuration stormDuration) {
 
         TreeMap<ZonedDateTime, TreeMap<Integer, EnumMap<ImpactType, Short>>> output = new TreeMap<>();
-        for (Map.Entry<ZonedDateTime, TreeMap<Integer, StormSeverity>> dateTimeEntry : allAffectedInTimeStep.entrySet()) {
+        for (Map.Entry<ZonedDateTime, TreeMap<Integer, StormReturnPeriod>> dateTimeEntry : allAffectedInTimeStep.entrySet()) {
             ZonedDateTime zonedDateTime = dateTimeEntry.getKey();
 
-            for (Map.Entry<Integer, StormSeverity> blockEntry : dateTimeEntry.getValue().entrySet()) {
+            for (Map.Entry<Integer, StormReturnPeriod> blockEntry : dateTimeEntry.getValue().entrySet()) {
                 Integer affectedBlock = blockEntry.getKey();
-                StormSeverity stormSeverity = blockEntry.getValue();
+                StormReturnPeriod stormReturnPeriod = blockEntry.getValue();
                 StormImpactLevels stormImpactLevels = stormImpactLevelsProvider.getFor(stormDuration);
-                EnumMap<ImpactType, Short> severityImpacts = stormImpactLevels.getImpacts(affectedBlock, stormSeverity);
+                EnumMap<ImpactType, Short> severityImpacts = stormImpactLevels.getImpacts(affectedBlock, stormReturnPeriod);
                 if (!severityImpacts.isEmpty()) {
                     output.computeIfAbsent(zonedDateTime, z -> new TreeMap<>())
                             .computeIfAbsent(affectedBlock, i -> new EnumMap<>(ImpactType.class))
@@ -55,9 +55,9 @@ public class ImpactCalculator {
 
     }
 
-    private TreeMap<Integer, List<StormSeverity>> calculateMax(TreeMap<ZonedDateTime, TreeMap<Integer, List<StormSeverity>>> thresholded,
-                                                               List<ZonedDateTime> sortedTimes,
-                                                               int stepsRequiredForMax, int index) {
+    private TreeMap<Integer, List<StormReturnPeriod>> calculateMax(TreeMap<ZonedDateTime, TreeMap<Integer, List<StormReturnPeriod>>> thresholded,
+                                                                   List<ZonedDateTime> sortedTimes,
+                                                                   int stepsRequiredForMax, int index) {
         return IntStream.rangeClosed(index - stepsRequiredForMax + 1, index)
                 .filter(i -> i >= 0)
                 .mapToObj(i -> thresholded.get(sortedTimes.get(i)))
@@ -67,8 +67,8 @@ public class ImpactCalculator {
 
     }
 
-    public static TreeMap<Integer, List<StormSeverity>> combine(TreeMap<Integer, List<StormSeverity>> first, TreeMap<Integer, List<StormSeverity>> second) {
-        for (Map.Entry<Integer, List<StormSeverity>> entry : second.entrySet()) {
+    public static TreeMap<Integer, List<StormReturnPeriod>> combine(TreeMap<Integer, List<StormReturnPeriod>> first, TreeMap<Integer, List<StormReturnPeriod>> second) {
+        for (Map.Entry<Integer, List<StormReturnPeriod>> entry : second.entrySet()) {
             first.computeIfAbsent(entry.getKey(), i -> new ArrayList<>())
                     .addAll(entry.getValue());
         }
